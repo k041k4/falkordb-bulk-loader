@@ -7,7 +7,7 @@ import redis
 from click.testing import CliRunner
 from redis import Redis
 
-from redisgraph_bulk_loader.bulk_insert import bulk_insert
+from falkordb_bulk_loader.bulk_insert import bulk_insert
 
 # Globals for validating example graph
 person_count = ""

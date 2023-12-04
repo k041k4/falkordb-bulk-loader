@@ -170,7 +170,7 @@ def bulk_update(
     max_token_size,
 ):
     if sys.version_info[0] < 3:
-        raise Exception("Python 3 is required for the RedisGraph bulk updater.")
+        raise Exception("Python 3 is required for the falkordb bulk updater.")
 
     start_time = timer()
 
@@ -182,11 +182,11 @@ def bulk_update(
         print("Could not connect to Redis server.")
         raise e
 
-    # Attempt to verify that RedisGraph module is loaded
+    # Attempt to verify that falkordb module is loaded
     try:
         module_list = [m["name"] for m in client.module_list()]
         if "graph" not in module_list:
-            print("RedisGraph module not loaded on connected server.")
+            print("falkordb module not loaded on connected server.")
             sys.exit(1)
     except redis.exceptions.ResponseError:
         # Ignore check if the connected server does not support the "MODULE LIST" command

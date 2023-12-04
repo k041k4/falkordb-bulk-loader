@@ -1,40 +1,40 @@
-[![license](https://img.shields.io/github/license/RedisGraph/redisgraph-bulk-loader.svg)](https://github.com/RedisGraph/redisgraph-bulk-loader)
-[![CircleCI](https://circleci.com/gh/RedisGraph/redisgraph-bulk-loader/tree/master.svg?style=svg)](https://circleci.com/gh/RedisGraph/redisgraph-bulk-loader/tree/master)
-[![Release](https://img.shields.io/github/release/RedisGraph/redisgraph-bulk-loader.svg)](https://github.com/RedisGraph/redisgraph-bulk-loader/releases/latest)
-[![PyPI version](https://badge.fury.io/py/redisgraph-bulk-loader.svg)](https://badge.fury.io/py/redisgraph-bulk-loader)
-[![Codecov](https://codecov.io/gh/RedisGraph/redisgraph-bulk-loader/branch/master/graph/badge.svg)](https://codecov.io/gh/RedisGraph/redisgraph-bulk-loader)
+[![license](https://img.shields.io/github/license/falkordb/falkordb-bulk-loader.svg)](https://github.com/falkordb/falkordb-bulk-loader)
+[![CircleCI](https://circleci.com/gh/falkordb/falkordb-bulk-loader/tree/master.svg?style=svg)](https://circleci.com/gh/falkordb/falkordb-bulk-loader/tree/master)
+[![Release](https://img.shields.io/github/release/falkordb/falkordb-bulk-loader.svg)](https://github.com/falkordb/falkordb-bulk-loader/releases/latest)
+[![PyPI version](https://badge.fury.io/py/falkordb-bulk-loader.svg)](https://badge.fury.io/py/falkordb-bulk-loader)
+[![Codecov](https://codecov.io/gh/falkordb/falkordb-bulk-loader/branch/master/graph/badge.svg)](https://codecov.io/gh/falkordb/falkordb-bulk-loader)
 
-# redisgraph-bulk-loader
-[![Forum](https://img.shields.io/badge/Forum-RedisGraph-blue)](https://forum.redis.com/c/modules/redisgraph)
+# falkordb-bulk-loader
+[![Forum](https://img.shields.io/badge/Forum-falkordb-blue)](https://forum.redis.com/c/modules/falkordb)
 [![Discord](https://img.shields.io/discord/697882427875393627?style=flat-square)](https://discord.gg/gWBRT6P)
 
-A Python utility for building RedisGraph databases from CSV inputs
+A Python utility for building falkordb databases from CSV inputs
 
 ## Requirements
 The bulk loader utility requires a Python 3 interpreter.
 
-A Redis server with the [RedisGraph](https://github.com/RedisLabsModules/RedisGraph) module must be running. Installation instructions may be found at:
-https://oss.redis.com/redisgraph/
+A FalkorDB server with the [falkordb](https://github.com/RedisLabsModules/falkordb) module must be running. Installation instructions may be found at:
+https://oss.redis.com/falkordb/
 
 ## Installation
 The bulk loader can be installed using pip:
 ```
-pip install redisgraph-bulk-loader
+pip install falkordb-bulk-loader
 ```
 Or
 ```
-pip install git+https://github.com/RedisGraph/redisgraph-bulk-loader.git@master
+pip install git+https://github.com/falkordb/falkordb-bulk-loader.git@master
 ```
 
 ## Usage
-Pip installation exposes `redisgraph-bulk-insert` as a command to invoke this tool:
+Pip installation exposes `falkordb-bulk-insert` as a command to invoke this tool:
 ```
-redisgraph-bulk-insert GRAPHNAME [OPTIONS]
+falkordb-bulk-insert GRAPHNAME [OPTIONS]
 ```
 
 Installation by cloning the repository allows the script to be invoked via Python like so:
 ```
-python3 redisgraph_bulk_loader/bulk_insert.py GRAPHNAME [OPTIONS]
+python3 falkordb_bulk_loader/bulk_insert.py GRAPHNAME [OPTIONS]
 ```
 
 | Flags | Extended flags             |                                              Parameter                                               |
@@ -61,11 +61,11 @@ The only required arguments are the name to give the newly-created graph (which 
 The nodes and relationship flags should be specified once per input file.
 
 ```
-redisgraph-bulk-insert GRAPH_DEMO -n example/Person.csv -n example/Country.csv -r example/KNOWS.csv -r example/VISITED.csv
+falkordb-bulk-insert GRAPH_DEMO -n example/Person.csv -n example/Country.csv -r example/KNOWS.csv -r example/VISITED.csv
 ```
 The label (for nodes) or relationship type (for relationships) is derived from the base name of the input CSV file. In this example, we'll construct two sets of nodes, labeled `Person` and `Country`, and two types of relationships - `KNOWS` and `VISITED`.
 
-RedisGraph does not impose a schema on properties, so the same property key can have values of differing types, such as strings and integers. As such, the bulk loader's default behaviour is to infer the type for each field independently for each value. This can cause unexpected behaviors when, for example, a property expected to always have string values has a field that can be cast to an integer or double. To avoid this, use the `--enforce-schema` flag and update your CSV headers as described in [Input Schemas](#input-schemas).
+falkordb does not impose a schema on properties, so the same property key can have values of differing types, such as strings and integers. As such, the bulk loader's default behaviour is to infer the type for each field independently for each value. This can cause unexpected behaviors when, for example, a property expected to always have string values has a field that can be cast to an integer or double. To avoid this, use the `--enforce-schema` flag and update your CSV headers as described in [Input Schemas](#input-schemas).
 
 ### Extended parameter descriptions
 The flags for `max-token-count`, `max-buffer-size`, and `max-token-size` are typically not required. They should only be specified if the memory overhead of graph creation is too high, or raised if the volume of Redis calls is too high. The bulk loader builds large graphs by sending binary tokens (each of which holds multiple nodes or relations) to Redis in batches.
@@ -118,7 +118,7 @@ storeNum | Location | daysOpen |
 136 | 55 Elm St | ['Sat', 'Sun']
 ```
 This CSV would be inserted with the command:
-`redisgraph-bulk-insert StoreGraph --separator \| --nodes Store.csv`
+`falkordb-bulk-insert StoreGraph --separator \| --nodes Store.csv`
 
 (Since the pipe character has meaning in the terminal, it must be backslash-escaped.)
 
@@ -166,19 +166,19 @@ FOLLOWS.csv
 1, 0, 10
 ```
 Inserting these CSVs with the command:
-`redisgraph-bulk-insert SocialGraph --enforce-schema --nodes User.csv --relations FOLLOWS.csv`
+`falkordb-bulk-insert SocialGraph --enforce-schema --nodes User.csv --relations FOLLOWS.csv`
 
 Will produce a graph named SocialGraph with 2 users, Jeffrey and Filipe. Jeffrey follows Filipe, and that relation has a reaction_count of 25. Filipe also follows Jeffrey, with a reaction_count of 10.
 
 ## Performing bulk updates
-Pip installation also exposes the command `redisgraph-bulk-update`:
+Pip installation also exposes the command `falkordb-bulk-update`:
 ```
-redisgraph-bulk-update GRAPHNAME [OPTIONS]
+falkordb-bulk-update GRAPHNAME [OPTIONS]
 ```
 
 Installation by cloning the repository allows the bulk updater to be invoked via Python like so:
 ```
-python3 redisgraph_bulk_loader/bulk_update.py GRAPHNAME [OPTIONS]
+python3 falkordb_bulk_loader/bulk_update.py GRAPHNAME [OPTIONS]
 ```
 
 | Flags | Extended flags           |                         Parameter                          |
@@ -194,12 +194,12 @@ python3 redisgraph_bulk_loader/bulk_update.py GRAPHNAME [OPTIONS]
 |  -n   | --no-header              |             If set, the CSV file has no header             |
 |  -t   | --max-token-size INTEGER | Max size of each token in megabytes (default 500, max 512) |
 
-The bulk updater allows a CSV file to be read in batches and committed to RedisGraph according to the provided query.
+The bulk updater allows a CSV file to be read in batches and committed to falkordb according to the provided query.
 
 For example, given the CSV files described in [Input Schema CSV examples](#input-schema-csv-examples), the bulk loader could create the same nodes and relationships with the commands:
 ```
-redisgraph-bulk-update SocialGraph --csv User.csv --query "MERGE (:User {id: row[0], name: row[1], rank: row[2]})"
-redisgraph-bulk-update SocialGraph --csv FOLLOWS.csv --query "MATCH (start {id: row[0]}), (end {id: row[1]}) MERGE (start)-[f:FOLLOWS]->(end) SET f.reaction_count = row[2]"
+falkordb-bulk-update SocialGraph --csv User.csv --query "MERGE (:User {id: row[0], name: row[1], rank: row[2]})"
+falkordb-bulk-update SocialGraph --csv FOLLOWS.csv --query "MATCH (start {id: row[0]}), (end {id: row[1]}) MERGE (start)-[f:FOLLOWS]->(end) SET f.reaction_count = row[2]"
 ```
 
-When using the bulk updater, it is essential to sanitize CSV inputs beforehand, as RedisGraph *will* commit changes to the graph incrementally. As such, malformed inputs may leave the graph in a partially-updated state.
+When using the bulk updater, it is essential to sanitize CSV inputs beforehand, as falkordb *will* commit changes to the graph incrementally. As such, malformed inputs may leave the graph in a partially-updated state.
