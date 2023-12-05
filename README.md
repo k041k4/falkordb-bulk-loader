@@ -1,5 +1,4 @@
 [![license](https://img.shields.io/github/license/falkordb/falkordb-bulk-loader.svg)](https://github.com/falkordb/falkordb-bulk-loader)
-[![CircleCI](https://circleci.com/gh/falkordb/falkordb-bulk-loader/tree/master.svg?style=svg)](https://circleci.com/gh/falkordb/falkordb-bulk-loader/tree/master)
 [![Release](https://img.shields.io/github/release/falkordb/falkordb-bulk-loader.svg)](https://github.com/falkordb/falkordb-bulk-loader/releases/latest)
 [![PyPI version](https://badge.fury.io/py/falkordb-bulk-loader.svg)](https://badge.fury.io/py/falkordb-bulk-loader)
 [![Codecov](https://codecov.io/gh/falkordb/falkordb-bulk-loader/branch/master/graph/badge.svg)](https://codecov.io/gh/falkordb/falkordb-bulk-loader)
