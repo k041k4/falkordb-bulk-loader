@@ -16,13 +16,13 @@ class TestBulkUpdate:
 
     @classmethod
     def setup_class(cls):
-        cls.db_con.flushall()
+        cls.db_con.flushdb()
 
     @classmethod
     def teardown_class(cls):
         """Delete temporary files"""
         os.unlink("/tmp/csv.tmp")
-        cls.db_con.flushall()
+        cls.db_con.flushdb()
 
     def test_simple_updates(self):
         """Validate that bulk updates work on an empty graph."""

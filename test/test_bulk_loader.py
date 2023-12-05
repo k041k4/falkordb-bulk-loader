@@ -33,7 +33,7 @@ class TestBulkLoader:
 
     @classmethod
     def setup_class(cls):
-        cls.db_con.flushall()
+        cls.db_con.flushdb()
 
     @classmethod
     def teardown_class(cls):
@@ -46,7 +46,7 @@ class TestBulkLoader:
         ]:
             if os.path.isfile(f"/tmp/{i}"):
                 os.unlink(f"/tmp/{i}")
-        cls.db_con.flushall()
+        cls.db_con.flushdb()
 
     def validate_exception(self, res, expected_msg):
         assert res.exit_code != 0
