@@ -44,10 +44,10 @@ class BulkUpdate:
         self.statistics = {}
 
     def update_statistics(self, result):
-        self.update_statistic("nodes_created", result.nodes_created())
-        self.update_statistic("labels_added", result.labels_added())
-        self.update_statistic("relationships_created", result.relationships_created())
-        self.update_statistic("properties_set", result.properties_set())
+        self.update_statistic("Nodes created", result.nodes_created())
+        self.update_statistic("Labels added", result.labels_added())
+        self.update_statistic("Relationships Created", result.relationships_created())
+        self.update_statistic("Properties set", result.properties_set())
 
     def update_statistic(self, key, new_val):
         try:
