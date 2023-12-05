@@ -101,7 +101,7 @@ class TestBulkLoader:
         assert visited_count + " relations created for type 'VISITED'" in res.output
 
         # Open the constructed graph.
-        graph = self.db_con.graph("social")
+        graph = self.db_con.select_graph("social")
         query_result = graph.query(
             "MATCH (p:Person) RETURN p.name, p.age, p.gender, p.status ORDER BY p.name"
         )
@@ -240,7 +240,7 @@ class TestBulkLoader:
         assert "3 nodes created" in res.output
         assert "2 relations created" in res.output
 
-        tmp_graph = self.db_con.graph(graphname)
+        tmp_graph = self.db_con.select_graph(graphname)
         # The field "_identifier" should not be a property in the graph
         query_result = tmp_graph.query("MATCH (a) RETURN a")
 
@@ -338,8 +338,8 @@ class TestBulkLoader:
         assert knows_count + " relations created for type 'KNOWS'" in res.output
         assert visited_count + " relations created for type 'VISITED'" in res.output
 
-        original_graph = self.db_con.graph("social")
-        new_graph = self.db_con.graph(graphname)
+        original_graph = self.db_con.select_graph("social")
+        new_graph = self.db_con.select_graph(graphname)
 
         # Newly-created graph should be identical to graph created in single bulk command
         original_result = original_graph.query(
@@ -453,7 +453,7 @@ class TestBulkLoader:
         assert "3 nodes created" in res.output
         assert "3 relations created" in res.output
 
-        graph = self.db_con.graph(graphname)
+        graph = self.db_con.select_graph(graphname)
         query_result = graph.query(
             "MATCH (a)-[e]->() RETURN a.numeric, a.mixed, a.bool, e.prop ORDER BY a.numeric, e.prop"
         )
@@ -493,7 +493,7 @@ class TestBulkLoader:
         assert res.exit_code == 0
         assert "9 nodes created" in res.output
 
-        graph = self.db_con.graph(graphname)
+        graph = self.db_con.select_graph(graphname)
         # The non-ASCII property string must be escaped backticks to parse correctly
         query_result = graph.query("""MATCH (a) RETURN a.`utf8_str_ß` ORDER BY a.id""")
         expected_strs = [
@@ -536,7 +536,7 @@ class TestBulkLoader:
         assert res.exit_code == 0
         assert "2 nodes created" in res.output
 
-        graph = self.db_con.graph(graphname)
+        graph = self.db_con.select_graph(graphname)
         query_result = graph.query(
             "MATCH (a) RETURN a.prop_a, a.prop_b, a.prop_c ORDER BY a.prop_a, a.prop_b, a.prop_c"
         )
@@ -565,7 +565,7 @@ class TestBulkLoader:
         assert res.exit_code == 0
         assert "2 nodes created" in res.output
 
-        graph = self.db_con.graph(graphname)
+        graph = self.db_con.select_graph(graphname)
         query_result = graph.query(
             "MATCH (a) RETURN a.str_col, a.num_col, a.bool_col ORDER BY a.num_col"
         )
@@ -615,7 +615,7 @@ class TestBulkLoader:
         assert res.exit_code == 0
         assert "2 nodes created" in res.output
 
-        graph = self.db_con.graph(graphname)
+        graph = self.db_con.select_graph(graphname)
         query_result = graph.query("MATCH (a) RETURN a ORDER BY a.str_col")
 
         # The nodes should only have the 'str_col' property
@@ -644,7 +644,7 @@ class TestBulkLoader:
         assert res.exit_code == 0
         assert "2 nodes created" in res.output
 
-        graph = self.db_con.graph(graphname)
+        graph = self.db_con.select_graph(graphname)
         query_result = graph.query("MATCH (a) RETURN a ORDER BY a.str_col")
 
         # Only the first node should only have the 'mixed_col' property
@@ -698,7 +698,7 @@ class TestBulkLoader:
         assert "4 nodes created" in res.output
         assert "2 relations created" in res.output
 
-        graph = self.db_con.graph(graphname)
+        graph = self.db_con.select_graph(graphname)
         query_result = graph.query(
             "MATCH (src)-[]->(dest) RETURN src.id, src.name, LABELS(src), dest.id, dest.views, LABELS(dest) ORDER BY src.id"
         )
@@ -729,7 +729,7 @@ class TestBulkLoader:
         assert res.exit_code == 0
         assert "2 nodes created" in res.output
 
-        graph = self.db_con.graph(graphname)
+        graph = self.db_con.select_graph(graphname)
         query_result = graph.query("MATCH (a) RETURN a ORDER BY a.str_col")
 
         node_1 = {"str_col": "str1", "arr_col": [1, 0.2, "nested_str", False]}
@@ -764,7 +764,7 @@ class TestBulkLoader:
         assert res.exit_code == 0
         assert "2 nodes created" in res.output
 
-        graph = self.db_con.graph(graphname)
+        graph = self.db_con.select_graph(graphname)
         query_result = graph.query("MATCH (a) RETURN a ORDER BY a.str_col")
 
         node_1 = {"str_col": "str1", "arr_col": [1, 0.2, "nested_str", False]}
@@ -868,7 +868,7 @@ class TestBulkLoader:
         assert "4 nodes created" in res.output
         assert "Indices created: 1" in res.output
 
-        graph = self.db_con.graph(graphname)
+        graph = self.db_con.select_graph(graphname)
         query_result = graph.query(
             "CALL db.idx.fulltext.queryNodes('Monkeys', 'tamarin') YIELD node RETURN node.name"
         )
@@ -928,7 +928,7 @@ class TestBulkLoader:
         assert "4 nodes created" in res.output
         assert "2 relations created" in res.output
 
-        graph = self.db_con.graph(graphname)
+        graph = self.db_con.select_graph(graphname)
         query_result = graph.query(
             "MATCH (src)-[]->(dest) RETURN src.id, src.name, LABELS(src), dest.id, dest.views, LABELS(dest) ORDER BY src.id"
         )

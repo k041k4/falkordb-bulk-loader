@@ -53,7 +53,7 @@ class TestBulkUpdate:
         assert "Nodes created: 3" in res.output
         assert "Properties set: 6" in res.output
 
-        tmp_graph = self.db_con.graph(graphname)
+        tmp_graph = self.db_con.select_graph(graphname)
         query_result = tmp_graph.query("MATCH (a) RETURN a.id, a.name ORDER BY a.id")
 
         # Validate that the expected results are all present in the graph
@@ -110,7 +110,7 @@ class TestBulkUpdate:
         assert "Relationships created: 3" in res.output
         assert "Properties set: 6" in res.output
 
-        tmp_graph = self.db_con.graph(graphname)
+        tmp_graph = self.db_con.select_graph(graphname)
         query_result = tmp_graph.query(
             "MATCH (a)-[:R]->(b) RETURN a.name, b.name ORDER BY a.name, b.name"
         )
@@ -145,7 +145,7 @@ class TestBulkUpdate:
         assert "Nodes created: 1" in res.output
         assert "Properties set: 5" in res.output
 
-        tmp_graph = self.db_con.graph(graphname)
+        tmp_graph = self.db_con.select_graph(graphname)
         query_result = tmp_graph.query(
             "MATCH (a) RETURN a.intval, a.doubleval, a.boolval, a.stringval, a.arrayval"
         )
@@ -185,7 +185,7 @@ class TestBulkUpdate:
         assert "Nodes created: 3" in res.output
         assert "Properties set: 6" in res.output
 
-        tmp_graph = self.db_con.graph(graphname)
+        tmp_graph = self.db_con.select_graph(graphname)
         query_result = tmp_graph.query("MATCH (a) RETURN a.id, a.name ORDER BY a.id")
 
         # Validate that the expected results are all present in the graph
@@ -242,7 +242,7 @@ class TestBulkUpdate:
         assert "Nodes created: 14" in res.output
         assert "Properties set: 56" in res.output
 
-        tmp_graph = self.db_con.graph(graphname)
+        tmp_graph = self.db_con.select_graph(graphname)
 
         # Validate that the expected results are all present in the graph
         query_result = tmp_graph.query(
@@ -295,7 +295,7 @@ class TestBulkUpdate:
         assert "Nodes created: 3" in res.output
         assert "Properties set: 6" in res.output
 
-        tmp_graph = self.db_con.graph(graphname)
+        tmp_graph = self.db_con.select_graph(graphname)
         query_result = tmp_graph.query("MATCH (a) RETURN a.id, a.name ORDER BY a.id")
 
         # Validate that the expected results are all present in the graph
@@ -334,7 +334,7 @@ class TestBulkUpdate:
         assert "Nodes created: 100000" in res.output
         assert "Properties set: 100000" in res.output
 
-        tmp_graph = self.db_con.graph(graphname)
+        tmp_graph = self.db_con.select_graph(graphname)
         query_result = tmp_graph.query("MATCH (a) RETURN DISTINCT a.prop")
 
         # Validate that the expected results are all present in the graph
@@ -382,7 +382,7 @@ class TestBulkUpdate:
         )
 
         assert res.exit_code != 0
-        assert "undefined_identifier not defined" in str(res.exception)
+        assert "'undefined_identifier' not defined" in str(res.exception)
 
     def test_invalid_inputs(self):
         """Validate that the bulk updater handles invalid inputs incorrectly."""
