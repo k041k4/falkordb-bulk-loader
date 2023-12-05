@@ -2,8 +2,8 @@ import sys
 from timeit import default_timer as timer
 
 import click
-from falkordb import FalkorDB
 import redis
+from falkordb import FalkorDB
 
 from .config import Config
 from .label import Label
