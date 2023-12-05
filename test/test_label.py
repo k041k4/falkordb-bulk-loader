@@ -5,7 +5,6 @@ import unittest
 from falkordb_bulk_loader.config import Config
 from falkordb_bulk_loader.label import Label
 
-
 class TestBulkLoader:
     @classmethod
     def teardown_class(cls):

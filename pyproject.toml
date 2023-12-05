@@ -27,7 +27,7 @@ repository = "https://github.com/falkordb/falkordb-bulk-loader"
 [tool.poetry.dependencies]
 python = ">= 3.7.0"
 click = "^8.0.1"
-redis = "^5.0.1"
+FalkorDB = "1.0.0a0"
 pathos = "^0.2.8"
 
 [tool.poetry.dev-dependencies]
