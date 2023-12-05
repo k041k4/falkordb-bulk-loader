@@ -4,7 +4,7 @@ from timeit import default_timer as timer
 
 import click
 import redis
-
+from falkordb import FalkorDB
 
 def utf8len(s):
     return len(s.encode("utf-8"))
@@ -39,7 +39,7 @@ class BulkUpdate:
         self.max_token_size = max_token_size * 1024 * 1024 - utf8len(self.query)
         self.filename = filename
         self.graph_name = graph_name
-        self.graph = client.graph(graph_name)
+        self.graph = client.select_graph(graph_name)
         self.statistics = {}
 
     def update_statistics(self, result):
@@ -175,9 +175,9 @@ def bulk_update(
     start_time = timer()
 
     # Attempt to connect to Redis server
-    client = redis.from_url(server_url, decode_responses=True)
+    client = FalkorDB.from_url(server_url, decode_responses=True)
     try:
-        client.ping()
+        client.connection.ping()
     except redis.exceptions.ConnectionError as e:
         print("Could not connect to Redis server.")
         raise e
