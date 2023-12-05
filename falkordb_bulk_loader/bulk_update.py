@@ -131,7 +131,10 @@ class BulkUpdate:
 @click.argument("graph")
 # Server connection settings
 @click.option(
-    "--server-url", "-u", default="falkordb://127.0.0.1:6379", help="FalkorDB connection url"
+    "--server-url",
+    "-u",
+    default="falkor://127.0.0.1:6379",
+    help="FalkorDB connection url"
 )
 # Cypher query options
 @click.option("--query", "-q", help="Query to run on server")
@@ -144,7 +147,10 @@ class BulkUpdate:
 # CSV file options
 @click.option("--csv", "-c", help="Path to CSV input file")
 @click.option(
-    "--separator", "-o", default=",", help="Field token separator in CSV file"
+    "--separator",
+    "-o",
+    default=",",
+    help="Field token separator in CSV file"
 )
 @click.option(
     "--no-header",
