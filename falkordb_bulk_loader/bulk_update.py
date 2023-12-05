@@ -44,17 +44,20 @@ class BulkUpdate:
         self.statistics = {}
 
     def update_statistics(self, result):
-        self.update_statistic("Nodes created", result.nodes_created())
-        self.update_statistic("Labels added", result.labels_added())
-        self.update_statistic("Relationships Created", result.relationships_created())
-        self.update_statistic("Properties set", result.properties_set())
+        self.update_statistic("Nodes created", result.nodes_created)
+        self.update_statistic("Labels added", result.labels_added)
+        self.update_statistic("Relationships created", result.relationships_created)
+        self.update_statistic("Properties set", result.properties_set)
 
     def update_statistic(self, key, new_val):
+        if new_val == 0:
+            return
+
         try:
             val = self.statistics[key]
         except KeyError:
             val = 0
-        val += new_val
+        val += int(new_val)
         self.statistics[key] = val
 
     def emit_buffer(self, rows):
