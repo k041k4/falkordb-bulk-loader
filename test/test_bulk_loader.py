@@ -832,8 +832,8 @@ class TestBulkLoader:
         assert "2 nodes created" in res.output
         assert "Indices created: 1" in res.output
 
-        r = redis.Redis(host="localhost", port=6379, decode_responses=True)
-        res = r.execute_command(
+        db_con = FalkorDB(host='localhost', port=6379)
+        res = db_con.execute_command(
             "GRAPH.EXPLAIN", graphname, "MATCH (p:Person) WHERE p.age > 16 RETURN p"
         )
         assert "        Node By Index Scan | (p:Person)" in res

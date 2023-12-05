@@ -9,7 +9,6 @@ from falkordb import FalkorDB
 
 from falkordb_bulk_loader.bulk_update import bulk_update
 
-
 class TestBulkUpdate:
 
     db_con = FalkorDB(host='localhost', port=6379)
