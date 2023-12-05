@@ -78,7 +78,7 @@ class BulkUpdate:
     def validate_query(self):
         command = " ".join(["CYPHER rows=[]", self.query])
         # The plan call will raise an error if the query is malformed or invalid.
-        self.graph.execution_plan(command)
+        self.graph.explain(command)
 
     def process_update_csv(self):
         entity_count = count_entities(self.filename)
@@ -147,10 +147,7 @@ class BulkUpdate:
 # CSV file options
 @click.option("--csv", "-c", help="Path to CSV input file")
 @click.option(
-    "--separator",
-    "-o",
-    default=",",
-    help="Field token separator in CSV file"
+    "--separator", "-o", default=",", help="Field token separator in CSV file"
 )
 @click.option(
     "--no-header",
