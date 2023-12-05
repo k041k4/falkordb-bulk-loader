@@ -2,8 +2,8 @@ import csv
 import os
 import unittest
 
-from redisgraph_bulk_loader.config import Config
-from redisgraph_bulk_loader.label import Label
+from falkordb_bulk_loader.config import Config
+from falkordb_bulk_loader.label import Label
 
 
 class TestBulkLoader:

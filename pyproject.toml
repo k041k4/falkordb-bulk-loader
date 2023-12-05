@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "redisgraph-bulk-loader"
-version = "0.12.3"
-description = "RedisGraph Bulk Import Tool"
-authors = ["Redis Inc <oss@redis.com>"]
+name = "falkordb-bulk-loader"
+version = "1.0.0"
+description = "falkordb Bulk Import Tool"
+authors = ["FalkorDB Inc <info@falkordb.com>"]
 license = "BSD-3-Clause"
 readme = "README.md"
 
@@ -10,29 +10,24 @@ classifiers = [
     'Topic :: Database',
     'Programming Language :: Python',
     'Intended Audience :: Developers',
-    'Programming Language :: Python :: 3.7',
-    'Programming Language :: Python :: 3.8',
-    'Programming Language :: Python :: 3.9',
-    'Programming Language :: Python :: 3.10',
-    'Programming Language :: Python :: 3.11',
     'License :: OSI Approved :: BSD License',
     'Development Status :: 5 - Production/Stable'
 
 ]
-keywords = ["Redis Graph Extension"]
+keywords = ["FalkorDB Graph"]
 
 [tool.poetry.scripts]
-redisgraph-bulk-update = "redisgraph_bulk_loader.bulk_update:bulk_update"
-redisgraph-bulk-insert = "redisgraph_bulk_loader.bulk_insert:bulk_insert"
+falkordb-bulk-update = "falkordb_bulk_loader.bulk_update:bulk_update"
+falkordb-bulk-insert = "falkordb_bulk_loader.bulk_insert:bulk_insert"
 
 [tool.poetry.urls]
-url = "https://redisgraph.io"
-repository = "https://github.com/RedisGraph/redisgraph-bulk-loader"
+url = "https://falkordb.com"
+repository = "https://github.com/falkordb/falkordb-bulk-loader"
 
 [tool.poetry.dependencies]
 python = ">= 3.7.0"
 click = "^8.0.1"
-redis = "^4.5.1"
+redis = "^5.0.1"
 pathos = "^0.2.8"
 
 [tool.poetry.dev-dependencies]

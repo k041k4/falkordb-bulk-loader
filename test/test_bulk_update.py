@@ -8,7 +8,7 @@ import redis
 from click.testing import CliRunner
 from redis import Redis
 
-from redisgraph_bulk_loader.bulk_update import bulk_update
+from falkordb_bulk_loader.bulk_update import bulk_update
 
 
 class TestBulkUpdate:
@@ -121,7 +121,7 @@ class TestBulkUpdate:
         assert query_result.result_set == expected_result
 
     def test_datatypes(self):
-        """Validate that all RedisGraph datatypes are supported by the bulk updater."""
+        """Validate that all falkordb datatypes are supported by the bulk updater."""
         graphname = "tmpgraph2"
         # Write temporary files
         with open("/tmp/csv.tmp", mode="w") as csv_file:

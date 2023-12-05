@@ -49,9 +49,9 @@ def process_entities(entities):
 # Command-line arguments
 @click.command()
 @click.argument("graph")
-# Redis server connection settings
+# Server connection settings
 @click.option(
-    "--redis-url", "-u", default="redis://127.0.0.1:6379", help="Redis connection url"
+    "--server-url", "-u", default="redis://127.0.0.1:6379", help="Redis connection url"
 )
 @click.option("--nodes", "-n", multiple=True, help="Path to node csv file")
 @click.option(
@@ -142,7 +142,7 @@ def process_entities(entities):
 )
 def bulk_insert(
     graph,
-    redis_url,
+    server_url,
     nodes,
     nodes_with_label,
     relations,
@@ -161,7 +161,7 @@ def bulk_insert(
     full_text_index,
 ):
     if sys.version_info.major < 3 or sys.version_info.minor < 6:
-        raise Exception("Python >= 3.6 is required for the RedisGraph bulk loader.")
+        raise Exception("Python >= 3.6 is required for the falkordb bulk loader.")
 
     if not (any(nodes) or any(nodes_with_label)):
         raise Exception("At least one node file must be specified.")
@@ -186,7 +186,7 @@ def bulk_insert(
         escapechar,
     )
 
-    client = redis.from_url(redis_url)
+    client = redis.from_url(server_url)
 
     # Attempt to connect to Redis server
     try:
@@ -195,11 +195,11 @@ def bulk_insert(
         print("Could not connect to Redis server.")
         raise e
 
-    # Attempt to verify that RedisGraph module is loaded
+    # Attempt to verify that falkordb module is loaded
     try:
         module_list = [m[b"name"] for m in client.module_list()]
         if b"graph" not in module_list:
-            print("RedisGraph module not loaded on connected server.")
+            print("falkordb module not loaded on connected server.")
             sys.exit(1)
     except redis.exceptions.ResponseError:
         # Ignore check if the connected server does not support the "MODULE LIST" command
