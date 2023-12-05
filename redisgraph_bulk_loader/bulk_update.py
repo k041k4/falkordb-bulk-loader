@@ -128,9 +128,9 @@ class BulkUpdate:
 # Command-line arguments
 @click.command()
 @click.argument("graph")
-# Redis server connection settings
+# Server connection settings
 @click.option(
-    "--redis-url", "-u", default="redis://127.0.0.1:6379", help="Redis connection url"
+    "--server-url", "-u", default="redis://127.0.0.1:6379", help="Redis connection url"
 )
 # Cypher query options
 @click.option("--query", "-q", help="Query to run on server")
@@ -161,7 +161,7 @@ class BulkUpdate:
 )
 def bulk_update(
     graph,
-    redis_url,
+    server_url,
     query,
     variable_name,
     csv,
@@ -175,7 +175,7 @@ def bulk_update(
     start_time = timer()
 
     # Attempt to connect to Redis server
-    client = redis.from_url(redis_url, decode_responses=True)
+    client = redis.from_url(server_url, decode_responses=True)
     try:
         client.ping()
     except redis.exceptions.ConnectionError as e:
