@@ -44,13 +44,17 @@ class BulkUpdate:
         self.statistics = {}
 
     def update_statistics(self, result):
-        for key, new_val in result.statistics.items():
-            try:
-                val = self.statistics[key]
-            except KeyError:
-                val = 0
-            val += new_val
-            self.statistics[key] = val
+        self.update_statistic( "nodes_created", result.nodes_created())
+        self.update_statistic( "labels_added", result.labels_added())
+        self.update_statistic( "relationships_created", result.relationships_created())
+
+    def update_statistic(self, key, new_val):
+        try:
+            val = self.statistics[key]
+        except KeyError:
+            val = 0
+        val += new_val
+        self.statistics[key] = val 
 
     def emit_buffer(self, rows):
         command = " ".join([rows, self.query])
@@ -134,7 +138,7 @@ class BulkUpdate:
     "--server-url",
     "-u",
     default="falkor://127.0.0.1:6379",
-    help="FalkorDB connection url"
+    help="FalkorDB connection url",
 )
 # Cypher query options
 @click.option("--query", "-q", help="Query to run on server")
@@ -190,7 +194,7 @@ def bulk_update(
     try:
         module_list = [m["name"] for m in client.connection.module_list()]
         if "graph" not in module_list:
-            print("falkordb module not loaded on connected server.")
+            print("FalkorDB module not loaded on connected server.")
             sys.exit(1)
     except redis.exceptions.ResponseError:
         # Ignore check if the connected server does not support the "MODULE LIST" command
