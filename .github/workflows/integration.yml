@@ -15,7 +15,7 @@ on:
     - cron: '5 4 * * *'
 
 env:
-  basepython: 3.9
+  basepython: 3.10
 
 jobs:
   lint:
