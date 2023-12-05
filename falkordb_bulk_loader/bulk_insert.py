@@ -2,6 +2,7 @@ import sys
 from timeit import default_timer as timer
 
 import click
+from falkordb import FalkorDB
 import redis
 
 from .config import Config
@@ -186,18 +187,18 @@ def bulk_insert(
         escapechar,
     )
 
-    client = redis.from_url(server_url)
+    client = FalkorDB.from_url(server_url)
 
-    # Attempt to connect to Redis server
+    # Attempt to connect to the server
     try:
-        client.ping()
+        client.connection.ping()
     except redis.exceptions.ConnectionError as e:
-        print("Could not connect to Redis server.")
+        print("Could not connect to FalkorDB server.")
         raise e
 
     # Attempt to verify that falkordb module is loaded
     try:
-        module_list = [m[b"name"] for m in client.module_list()]
+        module_list = [m[b"name"] for m in client.connection.module_list()]
         if b"graph" not in module_list:
             print("falkordb module not loaded on connected server.")
             sys.exit(1)
@@ -209,7 +210,7 @@ def bulk_insert(
     key_exists = client.execute_command("EXISTS", graph)
     if key_exists:
         print(
-            f"Graph with name '{graph}', could not be created, as Redis key '{graph}' already exists."
+            f"Graph with name '{graph}', could not be created, as '{graph}' already exists."
         )
         sys.exit(1)
 

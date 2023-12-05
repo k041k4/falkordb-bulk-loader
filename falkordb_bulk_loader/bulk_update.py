@@ -4,6 +4,7 @@ from timeit import default_timer as timer
 
 import click
 import redis
+from falkordb import FalkorDB
 
 
 def utf8len(s):
@@ -39,7 +40,7 @@ class BulkUpdate:
         self.max_token_size = max_token_size * 1024 * 1024 - utf8len(self.query)
         self.filename = filename
         self.graph_name = graph_name
-        self.graph = client.graph(graph_name)
+        self.graph = client.select_graph(graph_name)
         self.statistics = {}
 
     def update_statistics(self, result):
@@ -130,7 +131,7 @@ class BulkUpdate:
 @click.argument("graph")
 # Server connection settings
 @click.option(
-    "--server-url", "-u", default="redis://127.0.0.1:6379", help="Redis connection url"
+    "--server-url", "-u", default="falkordb://127.0.0.1:6379", help="FalkorDB connection url"
 )
 # Cypher query options
 @click.option("--query", "-q", help="Query to run on server")
@@ -174,17 +175,17 @@ def bulk_update(
 
     start_time = timer()
 
-    # Attempt to connect to Redis server
-    client = redis.from_url(server_url, decode_responses=True)
+    # Attempt to connect to the server
+    client = FalkorDB.from_url(server_url, decode_responses=True)
     try:
-        client.ping()
+        client.connection.ping()
     except redis.exceptions.ConnectionError as e:
-        print("Could not connect to Redis server.")
+        print("Could not connect to server.")
         raise e
 
     # Attempt to verify that falkordb module is loaded
     try:
-        module_list = [m["name"] for m in client.module_list()]
+        module_list = [m["name"] for m in client.connection.module_list()]
         if "graph" not in module_list:
             print("falkordb module not loaded on connected server.")
             sys.exit(1)
@@ -196,7 +197,7 @@ def bulk_update(
         graph, max_token_size, separator, no_header, csv, query, variable_name, client
     )
 
-    if graph in client.keys():
+    if graph in client.connection.keys():
         updater.validate_query()
     else:
         client.execute_command("GRAPH.QUERY", graph, "RETURN 1")
