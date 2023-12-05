@@ -2,7 +2,6 @@ import sys
 from timeit import default_timer as timer
 
 import click
-from falkordb import FalkorDB
 import redis
 
 from .config import Config
@@ -187,11 +186,11 @@ def bulk_insert(
         escapechar,
     )
 
-    client = FalkorDB.from_url(server_url)
+    client = redis.from_url(server_url)
 
     # Attempt to connect to Redis server
     try:
-        client.connection.ping()
+        client.ping()
     except redis.exceptions.ConnectionError as e:
         print("Could not connect to Redis server.")
         raise e
