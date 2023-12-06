@@ -82,4 +82,4 @@ jobs:
         if: matrix.python == '3.10' && matrix.platform != 'macos-11'
         with:
           fail_ci_if_error: false
-          token: ${{ secrets.CODECOVTOKEN }}
+          token: ${{ secrets.CODECOV_TOKEN }}
