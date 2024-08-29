@@ -3,7 +3,7 @@ from pathos.pools import ThreadPool as Pool
 
 def run(client, graphname, args):
     result = client.execute_command("GRAPH.BULK", graphname, *args)
-    stats = result.split(", ".encode())
+    stats = result.split(", ")
     return stats
 
 
@@ -87,8 +87,8 @@ class QueryBuffer:
         self.tasks.clear()
 
     def update_stats(self, stats):
-        self.nodes_created += int(stats[0].split(" ".encode())[0])
-        self.relations_created += int(stats[1].split(" ".encode())[0])
+        self.nodes_created += int(stats[0].split(" ")[0])
+        self.relations_created += int(stats[1].split(" ")[0])
 
     def report_completion(self, runtime):
         print(

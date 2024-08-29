@@ -187,7 +187,7 @@ def bulk_update(
     start_time = timer()
 
     # Attempt to connect to the server
-    client = FalkorDB.from_url(server_url, decode_responses=True)
+    client = FalkorDB.from_url(server_url)
     try:
         client.connection.ping()
     except redis.exceptions.ConnectionError as e:
