@@ -187,18 +187,19 @@ def bulk_insert(
         escapechar,
     )
 
+    redis_con = redis.from_url(server_url)
     client = FalkorDB.from_url(server_url)
 
     # Attempt to connect to the server
     try:
-        client.connection.ping()
+        redis_con.ping()
     except redis.exceptions.ConnectionError as e:
         print("Could not connect to FalkorDB server.")
         raise e
 
     # Attempt to verify that falkordb module is loaded
     try:
-        module_list = [m[b"name"] for m in client.connection.module_list()]
+        module_list = [m[b"name"] for m in redis_con.module_list()]
         if b"graph" not in module_list:
             print("falkordb module not loaded on connected server.")
             sys.exit(1)
@@ -207,7 +208,7 @@ def bulk_insert(
         pass
 
     # Verify that the graph name is not already used in the Redis database
-    key_exists = client.execute_command("EXISTS", graph)
+    key_exists = redis_con.exists(graph)
     if key_exists:
         print(
             f"Graph with name '{graph}', could not be created, as '{graph}' already exists."
@@ -233,15 +234,12 @@ def bulk_insert(
     query_buf.report_completion(end_time - start_time)
 
     # Add in Graph Indices after graph creation
+    graph = client.select_graph(graph)
     for i in index:
         l, p = i.split(":")
         print(f"Creating Index on Label: {l}, Property: {p}")
         try:
-            index_create = client.execute_command(
-                "GRAPH.QUERY", graph, f"CREATE INDEX ON :{l}({p})"
-            )
-            for z in index_create:
-                print(z[0].decode("utf-8"))
+            graph.create_node_range_index(l, p)
         except redis.exceptions.ResponseError as e:
             print(f"Unable to create Index on Label: {l}, Property {p}")
             print(e)
@@ -251,12 +249,7 @@ def bulk_insert(
         l, p = i.split(":")
         print(f"Creating Full Text Search Index on Label: {l}, Property: {p}")
         try:
-            index_create = client.execute_command(
-                "GRAPH.QUERY",
-                graph,
-                f"CALL db.idx.fulltext.createNodeIndex('{l}', '{p}')",
-            )
-            print(index_create[-1][0].decode("utf-8"))
+            graph.create_node_fulltext_index(l, p)
         except redis.exceptions.ResponseError as e:
             print(
                 f"Unable to create Full Text Search Index on Label: {l}, Property {p}"

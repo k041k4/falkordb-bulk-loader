@@ -830,7 +830,6 @@ class TestBulkLoader:
 
         assert res.exit_code == 0
         assert "2 nodes created" in res.output
-        assert "Indices created: 1" in res.output
 
         db_con = FalkorDB(host='localhost', port=6379)
         res = db_con.execute_command(
@@ -866,7 +865,6 @@ class TestBulkLoader:
 
         assert res.exit_code == 0
         assert "4 nodes created" in res.output
-        assert "Indices created: 1" in res.output
 
         graph = self.db_con.select_graph(graphname)
         query_result = graph.query(
