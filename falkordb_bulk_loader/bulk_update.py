@@ -208,12 +208,14 @@ def bulk_update(
         graph, max_token_size, separator, no_header, csv, query, variable_name, client
     )
 
-    if graph in client.connection.keys():
+    if graph in client.list_graphs():
         updater.validate_query()
     else:
-        client.execute_command("GRAPH.QUERY", graph, "RETURN 1")
+        g = client.select_graph(graph)
+        # create the graph
+        g.query("RETURN 1")
         updater.validate_query()
-        client.execute_command("GRAPH.DELETE", graph)
+        g.delete()
 
     updater.process_update_csv()
 
