@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "falkordb-bulk-loader"
-version = "1.0.5"
+version = "1.0.6"
 description = "falkordb Bulk Import Tool"
 authors = ["FalkorDB Inc <info@falkordb.com>"]
 license = "BSD-3-Clause"
@@ -27,7 +27,7 @@ repository = "https://github.com/falkordb/falkordb-bulk-loader"
 [tool.poetry.dependencies]
 python = "^3.10"
 click = "^8.0.1"
-FalkorDB = "^1.0.8"
+FalkorDB = "^1.0.10"
 pathos = "^0.2.8"
 
 [tool.poetry.dev-dependencies]
