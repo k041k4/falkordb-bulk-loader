@@ -1,0 +1,963 @@
+﻿Taxonomy,Economic Activity name,Activity Code,Industry Name
+NACE,"A1 - Crop and animal production, hunting and related service activities",A1 ,Crop cultivation
+NACE,A1.1 - Growing of non-perennial crops,A1.1 ,Crop cultivation
+NACE,"A1.1.1 - Growing of cereals (except rice), leguminous crops and oil seeds",A1.1.1 ,Crop cultivation
+NACE,A1.1.2 - Growing of rice,A1.1.2 ,Crop cultivation
+NACE,"A1.1.3 - Growing of vegetables and melons, roots and tubers",A1.1.3 ,Crop cultivation
+NACE,A1.1.4 - Growing of sugar cane,A1.1.4 ,Crop cultivation
+NACE,A1.1.5 - Growing of tobacco,A1.1.5 ,Crop cultivation
+NACE,A1.1.6 - Growing of fibre crops,A1.1.6 ,Crop cultivation
+NACE,A1.1.9 - Growing of other non-perennial crops,A1.1.9 ,Crop cultivation
+NACE,A1.2 - Growing of perennial crops,A1.2 ,Crop cultivation
+NACE,A1.2.1 - Growing of grapes,A1.2.1 ,Crop cultivation
+NACE,A1.2.2 - Growing of tropical and subtropical fruits,A1.2.2 ,Crop cultivation
+NACE,A1.2.3 - Growing of citrus fruits,A1.2.3 ,Crop cultivation
+NACE,A1.2.4 - Growing of pome fruits and stone fruits,A1.2.4 ,Crop cultivation
+NACE,A1.2.5 - Growing of other tree and bush fruits and nuts,A1.2.5 ,Crop cultivation
+NACE,A1.2.6 - Growing of oleaginous fruits,A1.2.6 ,Crop cultivation
+NACE,A1.2.7 - Growing of beverage crops,A1.2.7 ,Crop cultivation
+NACE,"A1.2.8 - Growing of spices, aromatic, drug and pharmaceutical crops",A1.2.8 ,Crop cultivation
+NACE,A1.2.9 - Growing of other perennial crops,A1.2.9 ,Crop cultivation
+NACE,A1.3 - Plant propagation,A1.3 ,Crop cultivation
+NACE,A1.3.0 - Plant propagation,A1.3.0 ,Crop cultivation
+NACE,A1.4 - Animal production,A1.4 ,"Fishing, hunting and animal husbandry"
+NACE,A1.4.1 - Raising of dairy cattle,A1.4.1 ,"Fishing, hunting and animal husbandry"
+NACE,A1.4.2 - Raising of other cattle and buffaloes,A1.4.2 ,"Fishing, hunting and animal husbandry"
+NACE,A1.4.3 - Raising of horses and other equines,A1.4.3 ,"Fishing, hunting and animal husbandry"
+NACE,A1.4.4 - Raising of camels and camelids,A1.4.4 ,"Fishing, hunting and animal husbandry"
+NACE,A1.4.5 - Raising of sheep and goats,A1.4.5 ,"Fishing, hunting and animal husbandry"
+NACE,A1.4.6 - Raising of swine/pigs,A1.4.6 ,"Fishing, hunting and animal husbandry"
+NACE,A1.4.7 - Raising of poultry,A1.4.7 ,"Fishing, hunting and animal husbandry"
+NACE,A1.4.9 - Raising of other animals,A1.4.9 ,"Fishing, hunting and animal husbandry"
+NACE,A1.5 - Mixed farming,A1.5 ,Mixed farming
+NACE,A1.5.0 - Mixed farming,A1.5.0 ,Mixed farming
+NACE,A1.6 - Support activities to agriculture and post-harvest crop activities,A1.6 ,Mixed farming
+NACE,A1.6.1 - Support activities for crop production,A1.6.1 ,Mixed farming
+NACE,A1.6.2 - Support activities for animal production,A1.6.2 ,Mixed farming
+NACE,A1.6.3 - Post-harvest crop activities,A1.6.3 ,Mixed farming
+NACE,A1.6.4 - Seed processing for propagation,A1.6.4 ,Mixed farming
+NACE,"A1.7 - Hunting, trapping and related service activities",A1.7 ,"Fishing, hunting and animal husbandry"
+NACE,"A1.7.0 - Hunting, trapping and related service activities",A1.7.0 ,"Fishing, hunting and animal husbandry"
+NACE,A2 - Forestry and logging,A2 ,"Forestry, logging and related services"
+NACE,A2.1 - Silviculture and other forestry activities,A2.1 ,"Forestry, logging and related services"
+NACE,A2.1.0 - Silviculture and other forestry activities,A2.1.0 ,"Forestry, logging and related services"
+NACE,A2.2 - Logging,A2.2 ,"Forestry, logging and related services"
+NACE,A2.2.0 - Logging,A2.2.0 ,"Forestry, logging and related services"
+NACE,A2.3 - Gathering of wild growing non-wood products,A2.3 ,"Forestry, logging and related services"
+NACE,A2.3.0 - Gathering of wild growing non-wood products,A2.3.0 ,"Forestry, logging and related services"
+NACE,A2.4 - Support services to forestry,A2.4 ,"Forestry, logging and related services"
+NACE,A2.4.0 - Support services to forestry,A2.4.0 ,"Forestry, logging and related services"
+NACE,A3 - Fishing and aquaculture,A3 ,"Fishing, hunting and animal husbandry"
+NACE,A3.1 - Fishing,A3.1 ,"Fishing, hunting and animal husbandry"
+NACE,A3.1.1 - Marine fishing,A3.1.1 ,"Fishing, hunting and animal husbandry"
+NACE,A3.1.2 - Freshwater fishing,A3.1.2 ,"Fishing, hunting and animal husbandry"
+NACE,A3.2 - Aquaculture,A3.2 ,"Fishing, hunting and animal husbandry"
+NACE,A3.2.1 - Marine aquaculture,A3.2.1 ,"Fishing, hunting and animal husbandry"
+NACE,A3.2.2 - Freshwater aquaculture,A3.2.2 ,"Fishing, hunting and animal husbandry"
+NACE,B5 - Mining of coal and lignite,B5 ,Coal and metal ores
+NACE,B5.1 - Mining of hard coal,B5.1 ,Coal and metal ores
+NACE,B5.1.0 - Mining of hard coal,B5.1.0 ,Coal and metal ores
+NACE,B5.2 - Mining of lignite,B5.2 ,Coal and metal ores
+NACE,B5.2.0 - Mining of lignite,B5.2.0 ,Coal and metal ores
+NACE,B6 - Extraction of crude petroleum and natural gas,B6 ,Gas and oil
+NACE,B6.1 - Extraction of crude petroleum,B6.1 ,Gas and oil
+NACE,B6.1.0 - Extraction of crude petroleum,B6.1.0 ,Gas and oil
+NACE,B6.2 - Extraction of natural gas,B6.2 ,Gas and oil
+NACE,B6.2.0 - Extraction of natural gas,B6.2.0 ,Gas and oil
+NACE,B7 - Mining of metal ores,B7 ,Coal and metal ores
+NACE,B7.1 - Mining of iron ores,B7.1 ,Coal and metal ores
+NACE,B7.1.0 - Mining of iron ores,B7.1.0 ,Coal and metal ores
+NACE,B7.2 - Mining of non-ferrous metal ores,B7.2 ,Energy related services
+NACE,B7.2.1 - Mining of uranium and thorium ores,B7.2.1 ,Energy related services
+NACE,B7.2.9 - Mining of other non-ferrous metal ores,B7.2.9 ,Energy related services
+NACE,B8 - Other mining and quarrying,B8 ,Materials
+NACE,"B8.1 - Quarrying of stone, sand and clay",B8.1 ,Materials
+NACE,"B8.1.1 - Quarrying of ornamental and building stone, limestone, gypsum, chalk and slate",B8.1.1 ,Materials
+NACE,B8.1.2 - Operation of gravel and sand pits; mining of clays and kaolin,B8.1.2 ,Materials
+NACE,B8.9 - Mining and quarrying n.e.c.,B8.9 ,Materials
+NACE,B8.9.1 - Mining of chemical and fertiliser minerals,B8.9.1 ,Materials
+NACE,B8.9.2 - Extraction of peat,B8.9.2 ,Materials
+NACE,B8.9.3 - Extraction of salt,B8.9.3 ,Materials
+NACE,B8.9.9 - Other mining and quarrying n.e.c.,B8.9.9 ,Materials
+NACE,B9 - Mining support service activities,B9 ,Materials
+NACE,B9.1 - Support activities for petroleum and natural gas extraction,B9.1 ,Gas and oil
+NACE,B9.1.0 - Support activities for petroleum and natural gas extraction,B9.1.0 ,Gas and oil
+NACE,B9.9 - Support activities for other mining and quarrying,B9.9 ,Materials
+NACE,B9.9.0 - Support activities for other mining and quarrying,B9.9.0 ,Materials
+NACE,C10 - Manufacture of food products,C10 ,Food and beverages
+NACE,C10.1 - Processing and preserving of meat and production of meat products,C10.1 ,Food and beverages
+NACE,C10.1.1 - Processing and preserving of meat,C10.1.1 ,Food and beverages
+NACE,C10.1.2 - Processing and preserving of poultry meat,C10.1.2 ,Food and beverages
+NACE,C10.1.3 - Production of meat and poultry meat products,C10.1.3 ,Food and beverages
+NACE,"C10.2 - Processing and preserving of fish, crustaceans and molluscs",C10.2 ,Food and beverages
+NACE,"C10.2.0 - Processing and preserving of fish, crustaceans and molluscs",C10.2.0 ,Food and beverages
+NACE,C10.3 - Processing and preserving of fruit and vegetables,C10.3 ,Food and beverages
+NACE,C10.3.1 - Processing and preserving of potatoes,C10.3.1 ,Food and beverages
+NACE,C10.3.2 - Manufacture of fruit and vegetable juice,C10.3.2 ,Food and beverages
+NACE,C10.3.9 - Other processing and preserving of fruit and vegetables,C10.3.9 ,Food and beverages
+NACE,C10.4 - Manufacture of vegetable and animal oils and fats,C10.4 ,Food and beverages
+NACE,C10.4.1 - Manufacture of oils and fats,C10.4.1 ,Food and beverages
+NACE,C10.4.2 - Manufacture of margarine and similar edible fats,C10.4.2 ,Food and beverages
+NACE,C10.5 - Manufacture of dairy products,C10.5 ,Food and beverages
+NACE,C10.5.1 - Operation of dairies and cheese making,C10.5.1 ,Food and beverages
+NACE,C10.5.2 - Manufacture of ice cream,C10.5.2 ,Food and beverages
+NACE,"C10.6 - Manufacture of grain mill products, starches and starch products",C10.6 ,Food and beverages
+NACE,C10.6.1 - Manufacture of grain mill products,C10.6.1 ,Food and beverages
+NACE,C10.6.2 - Manufacture of starches and starch products,C10.6.2 ,Food and beverages
+NACE,C10.7 - Manufacture of bakery and farinaceous products,C10.7 ,Food and beverages
+NACE,C10.7.1 - Manufacture of bread; manufacture of fresh pastry goods and cakes,C10.7.1 ,Food and beverages
+NACE,C10.7.2 - Manufacture of rusks and biscuits; manufacture of preserved pastry goods and cakes,C10.7.2 ,Food and beverages
+NACE,"C10.7.3 - Manufacture of macaroni, noodles, couscous and similar farinaceous products",C10.7.3 ,Food and beverages
+NACE,C10.8 - Manufacture of other food products,C10.8 ,Food and beverages
+NACE,C10.8.1 - Manufacture of sugar,C10.8.1 ,Food and beverages
+NACE,"C10.8.2 - Manufacture of cocoa, chocolate and sugar confectionery",C10.8.2 ,Food and beverages
+NACE,C10.8.3 - Processing of tea and coffee,C10.8.3 ,Food and beverages
+NACE,C10.8.4 - Manufacture of condiments and seasonings,C10.8.4 ,Food and beverages
+NACE,C10.8.5 - Manufacture of prepared meals and dishes,C10.8.5 ,Food and beverages
+NACE,C10.8.6 - Manufacture of homogenised food preparations and dietetic food,C10.8.6 ,Food and beverages
+NACE,C10.8.9 - Manufacture of other food products n.e.c.,C10.8.9 ,Food and beverages
+NACE,C10.9 - Manufacture of prepared animal feeds,C10.9 ,Food and beverages
+NACE,C10.9.1 - Manufacture of prepared feeds for farm animals,C10.9.1 ,Food and beverages
+NACE,C10.9.2 - Manufacture of prepared pet foods,C10.9.2 ,Food and beverages
+NACE,C11 - Manufacture of beverages,C11 ,Food and beverages
+NACE,C11.0 - Manufacture of beverages,C11.0 ,Food and beverages
+NACE,"C11.0.1 - Distilling, rectifying and blending of spirits",C11.0.1 ,Food and beverages
+NACE,C11.0.2 - Manufacture of wine from grape,C11.0.2 ,Food and beverages
+NACE,C11.0.3 - Manufacture of cider and other fruit wines,C11.0.3 ,Food and beverages
+NACE,C11.0.4 - Manufacture of other non-distilled fermented beverages,C11.0.4 ,Food and beverages
+NACE,C11.0.5 - Manufacture of beer,C11.0.5 ,Food and beverages
+NACE,C11.0.6 - Manufacture of malt,C11.0.6 ,Food and beverages
+NACE,C11.0.7 - Manufacture of soft drinks; production of mineral waters and other bottled waters,C11.0.7 ,Food and beverages
+NACE,C12 - Manufacture of tobacco products,C12 ,Other consumer products manufacturing
+NACE,C12.0 - Manufacture of tobacco products,C12.0 ,Other consumer products manufacturing
+NACE,C12.0.0 - Manufacture of tobacco products,C12.0.0 ,Other consumer products manufacturing
+NACE,C13 - Manufacture of textiles,C13 ,Textile fibres
+NACE,C13.1 - Preparation and spinning of textile fibres,C13.1 ,Textile fibres
+NACE,C13.1.0 - Preparation and spinning of textile fibres,C13.1.0 ,Textile fibres
+NACE,C13.2 - Weaving of textiles,C13.2 ,Textile fibres
+NACE,C13.2.0 - Weaving of textiles,C13.2.0 ,Textile fibres
+NACE,C13.3 - Finishing of textiles,C13.3 ,Textile fibres
+NACE,C13.3.0 - Finishing of textiles,C13.3.0 ,Textile fibres
+NACE,C13.9 - Manufacture of other textiles,C13.9 ,Textile fibres
+NACE,C13.9.1 - Manufacture of knitted and crocheted fabrics,C13.9.1 ,Textile fibres
+NACE,"C13.9.2 - Manufacture of made-up textile articles, except apparel",C13.9.2 ,Textile fibres
+NACE,C13.9.3 - Manufacture of carpets and rugs,C13.9.3 ,Household articles
+NACE,"C13.9.4 - Manufacture of cordage, rope, twine and netting",C13.9.4 ,Textile fibres
+NACE,"C13.9.5 - Manufacture of non-wovens and articles made from non-wovens, except apparel",C13.9.5 ,Textile fibres
+NACE,C13.9.6 - Manufacture of other technical and industrial textiles,C13.9.6 ,Textile fibres
+NACE,C13.9.9 - Manufacture of other textiles n.e.c.,C13.9.9 ,Textile fibres
+NACE,C14 - Manufacture of wearing apparel,C14 ,Fashion industry
+NACE,"C14.1 - Manufacture of wearing apparel, except fur apparel",C14.1 ,Fashion industry
+NACE,C14.1.1 - Manufacture of leather clothes,C14.1.1 ,Fashion industry
+NACE,C14.1.2 - Manufacture of workwear,C14.1.2 ,Fashion industry
+NACE,C14.1.3 - Manufacture of other outerwear,C14.1.3 ,Fashion industry
+NACE,C14.1.4 - Manufacture of underwear,C14.1.4 ,Fashion industry
+NACE,C14.1.9 - Manufacture of other wearing apparel and accessories,C14.1.9 ,Fashion industry
+NACE,C14.2 - Manufacture of articles of fur,C14.2 ,Fashion industry
+NACE,C14.2.0 - Manufacture of articles of fur,C14.2.0 ,Fashion industry
+NACE,C14.3 - Manufacture of knitted and crocheted apparel,C14.3 ,Fashion industry
+NACE,C14.3.1 - Manufacture of knitted and crocheted hosiery,C14.3.1 ,Fashion industry
+NACE,C14.3.9 - Manufacture of other knitted and crocheted apparel,C14.3.9 ,Fashion industry
+NACE,C15 - Manufacture of leather and related products,C15 ,Fashion industry
+NACE,"C15.1 - Tanning and dressing of leather; manufacture of luggage, handbags, saddlery and harness; dressing and dyeing of fur",C15.1 ,Fashion industry
+NACE,C15.1.1 - Tanning and dressing of leather; dressing and dyeing of fur,C15.1.1 ,Fashion industry
+NACE,"C15.1.2 - Manufacture of luggage, handbags and the like, saddlery and harness",C15.1.2 ,Fashion industry
+NACE,C15.2 - Manufacture of footwear,C15.2 ,Fashion industry
+NACE,C15.2.0 - Manufacture of footwear,C15.2.0 ,Fashion industry
+NACE,"C16 - Manufacture of wood and of products of wood and cork, except furniture; manufacture of articles of straw and plaiting materials",C16 ,Other consumer products manufacturing
+NACE,C16.1 - Sawmilling and planing of wood,C16.1 ,Other consumer products manufacturing
+NACE,C16.1.0 - Sawmilling and planing of wood,C16.1.0 ,Other consumer products manufacturing
+NACE,"C16.2 - Manufacture of products of wood, cork, straw and plaiting materials",C16.2 ,Other consumer products manufacturing
+NACE,C16.2.1 - Manufacture of veneer sheets and wood-based panels,C16.2.1 ,Other consumer products manufacturing
+NACE,C16.2.2 - Manufacture of assembled parquet floors,C16.2.2 ,Construction materials
+NACE,C16.2.3 - Manufacture of other builders' carpentry and joinery,C16.2.3 ,Construction materials
+NACE,C16.2.4 - Manufacture of wooden containers,C16.2.4 ,Other consumer products manufacturing
+NACE,"C16.2.9 - Manufacture of other products of wood; manufacture of articles of cork, straw and plaiting materials",C16.2.9 ,Other consumer products manufacturing
+NACE,C17 - Manufacture of paper and paper products,C17 ,Other consumer products manufacturing
+NACE,"C17.1 - Manufacture of pulp, paper and paperboard",C17.1 ,Other consumer products manufacturing
+NACE,C17.1.1 - Manufacture of pulp,C17.1.1 ,Other consumer products manufacturing
+NACE,C17.1.2 - Manufacture of paper and paperboard,C17.1.2 ,Other consumer products manufacturing
+NACE,C17.2 - Manufacture of articles of paper and paperboard,C17.2 ,Other consumer products manufacturing
+NACE,C17.2.1 - Manufacture of corrugated paper and paperboard and of containers of paper and paperboard,C17.2.1 ,Other consumer products manufacturing
+NACE,C17.2.2 - Manufacture of household and sanitary goods and of toilet requisites,C17.2.2 ,Household articles
+NACE,C17.2.3 - Manufacture of paper stationery,C17.2.3 ,Other consumer products manufacturing
+NACE,C17.2.4 - Manufacture of wallpaper,C17.2.4 ,Other consumer products manufacturing
+NACE,C17.2.9 - Manufacture of other articles of paper and paperboard,C17.2.9 ,Other consumer products manufacturing
+NACE,C18 - Printing and reproduction of recorded media,C18 ,"Broadcasting, publications and content providers"
+NACE,C18.1 - Printing and service activities related to printing,C18.1 ,"Broadcasting, publications and content providers"
+NACE,C18.1.1 - Printing of newspapers,C18.1.1 ,"Broadcasting, publications and content providers"
+NACE,C18.1.2 - Other printing,C18.1.2 ,"Broadcasting, publications and content providers"
+NACE,C18.1.3 - Pre-press and pre-media services,C18.1.3 ,"Broadcasting, publications and content providers"
+NACE,C18.1.4 - Binding and related services,C18.1.4 ,"Broadcasting, publications and content providers"
+NACE,C18.2 - Reproduction of recorded media,C18.2 ,"Broadcasting, publications and content providers"
+NACE,C18.2.0 - Reproduction of recorded media,C18.2.0 ,"Broadcasting, publications and content providers"
+NACE,C19 - Manufacture of coke and refined petroleum products,C19 ,Gas and oil
+NACE,C19.1 - Manufacture of coke oven products,C19.1 ,Energy related products and equipment
+NACE,C19.1.0 - Manufacture of coke oven products,C19.1.0 ,Energy related products and equipment
+NACE,C19.2 - Manufacture of refined petroleum products,C19.2 ,Gas and oil
+NACE,C19.2.0 - Manufacture of refined petroleum products,C19.2.0 ,Gas and oil
+NACE,C20 - Manufacture of chemicals and chemical products,C20 ,Specialty chemicals & Organic chemicals
+NACE,"C20.1 - Manufacture of basic chemicals, fertilisers and nitrogen compounds, plastics and synthetic rubber in primary forms",C20.1 ,Specialty chemicals & Organic chemicals
+NACE,C20.1.1 - Manufacture of industrial gases,C20.1.1 ,Specialty chemicals & Organic chemicals
+NACE,C20.1.2 - Manufacture of dyes and pigments,C20.1.2 ,Specialty chemicals & Organic chemicals
+NACE,C20.1.3 - Manufacture of other inorganic basic chemicals,C20.1.3 ,Specialty chemicals
+NACE,C20.1.4 - Manufacture of other organic basic chemicals,C20.1.4 ,Organic chemicals
+NACE,C20.1.5 - Manufacture of fertilisers and nitrogen compounds,C20.1.5 ,Specialty chemicals & Organic chemicals
+NACE,C20.1.6 - Manufacture of plastics in primary forms,C20.1.6 ,Specialty chemicals & Organic chemicals
+NACE,C20.1.7 - Manufacture of synthetic rubber in primary forms,C20.1.7 ,Specialty chemicals & Organic chemicals
+NACE,C20.2 - Manufacture of pesticides and other agrochemical products,C20.2 ,Specialty chemicals & Organic chemicals
+NACE,C20.2.0 - Manufacture of pesticides and other agrochemical products,C20.2.0 ,Specialty chemicals & Organic chemicals
+NACE,"C20.3 - Manufacture of paints, varnishes and similar coatings, printing ink and mastics",C20.3 ,Specialty chemicals & Organic chemicals
+NACE,"C20.3.0 - Manufacture of paints, varnishes and similar coatings, printing ink and mastics",C20.3.0 ,Specialty chemicals & Organic chemicals
+NACE,"C20.4 - Manufacture of soap and detergents, cleaning and polishing preparations, perfumes and toilet preparations",C20.4 ,Household articles
+NACE,"C20.4.1 - Manufacture of soap and detergents, cleaning and polishing preparations",C20.4.1 ,Household articles
+NACE,C20.4.2 - Manufacture of perfumes and toilet preparations,C20.4.2 ,Household articles
+NACE,C20.5 - Manufacture of other chemical products,C20.5 ,Specialty chemicals & Organic chemicals
+NACE,C20.5.1 - Manufacture of explosives,C20.5.1 ,Specialty chemicals & Organic chemicals
+NACE,C20.5.2 - Manufacture of glues,C20.5.2 ,Specialty chemicals & Organic chemicals
+NACE,C20.5.3 - Manufacture of essential oils,C20.5.3 ,Specialty chemicals & Organic chemicals
+NACE,C20.5.9 - Manufacture of other chemical products n.e.c.,C20.5.9 ,Specialty chemicals & Organic chemicals
+NACE,C20.6 - Manufacture of man-made fibres,C20.6 ,Textile fibres
+NACE,C20.6.0 - Manufacture of man-made fibres,C20.6.0 ,Textile fibres
+NACE,C21 - Manufacture of basic pharmaceutical products and pharmaceutical preparations,C21 ,Pharmaceuticals and drug delivery
+NACE,C21.1 - Manufacture of basic pharmaceutical products,C21.1 ,Pharmaceuticals and drug delivery
+NACE,C21.1.0 - Manufacture of basic pharmaceutical products,C21.1.0 ,Pharmaceuticals and drug delivery
+NACE,C21.2 - Manufacture of pharmaceutical preparations,C21.2 ,Pharmaceuticals and drug delivery
+NACE,C21.2.0 - Manufacture of pharmaceutical preparations,C21.2.0 ,Pharmaceuticals and drug delivery
+NACE,C22 - Manufacture of rubber and plastic products,C22 ,Plastic
+NACE,C22.1 - Manufacture of rubber products,C22.1 ,Plastic
+NACE,C22.1.1 - Manufacture of rubber tyres and tubes; retreading and rebuilding of rubber tyres,C22.1.1 ,Plastic
+NACE,C22.1.9 - Manufacture of other rubber products,C22.1.9 ,Plastic
+NACE,C22.2 - Manufacture of plastics products,C22.2 ,Plastic
+NACE,"C22.2.1 - Manufacture of plastic plates, sheets, tubes and profiles",C22.2.1 ,Plastic
+NACE,C22.2.2 - Manufacture of plastic packing goods,C22.2.2 ,Plastic
+NACE,C22.2.3 - Manufacture of builders’ ware of plastic,C22.2.3 ,Plastic
+NACE,C22.2.9 - Manufacture of other plastic products,C22.2.9 ,Plastic
+NACE,C23 - Manufacture of other non-metallic mineral products,C23 ,Business and industrial products
+NACE,C23.1 - Manufacture of glass and glass products,C23.1 ,Business and industrial products
+NACE,C23.1.1 - Manufacture of flat glass,C23.1.1 ,Business and industrial products
+NACE,C23.1.2 - Shaping and processing of flat glass,C23.1.2 ,Business and industrial products
+NACE,C23.1.3 - Manufacture of hollow glass,C23.1.3 ,Business and industrial products
+NACE,C23.1.4 - Manufacture of glass fibres,C23.1.4 ,Business and industrial products
+NACE,"C23.1.9 - Manufacture and processing of other glass, including technical glassware",C23.1.9 ,Business and industrial products
+NACE,C23.2 - Manufacture of refractory products,C23.2 ,Construction materials
+NACE,C23.2.0 - Manufacture of refractory products,C23.2.0 ,Construction materials
+NACE,C23.3 - Manufacture of clay building materials,C23.3 ,Construction materials
+NACE,C23.3.1 - Manufacture of ceramic tiles and flags,C23.3.1 ,Construction materials
+NACE,"C23.3.2 - Manufacture of bricks, tiles and construction products, in baked clay",C23.3.2 ,Construction materials
+NACE,C23.4 - Manufacture of other porcelain and ceramic products,C23.4 ,Household articles
+NACE,C23.4.1 - Manufacture of ceramic household and ornamental articles,C23.4.1 ,Household articles
+NACE,C23.4.2 - Manufacture of ceramic sanitary fixtures,C23.4.2 ,Construction materials
+NACE,C23.4.3 - Manufacture of ceramic insulators and insulating fittings,C23.4.3 ,Construction materials
+NACE,C23.4.4 - Manufacture of other technical ceramic products,C23.4.4 ,Construction materials
+NACE,C23.4.9 - Manufacture of other ceramic products,C23.4.9 ,Construction materials
+NACE,"C23.5 - Manufacture of cement, lime and plaster",C23.5 ,Construction materials
+NACE,C23.5.1 - Manufacture of cement,C23.5.1 ,Construction materials
+NACE,C23.5.2 - Manufacture of lime and plaster,C23.5.2 ,Construction materials
+NACE,"C23.6 - Manufacture of articles of concrete, cement and plaster",C23.6 ,Construction materials
+NACE,C23.6.1 - Manufacture of concrete products for construction purposes,C23.6.1 ,Construction materials
+NACE,C23.6.2 - Manufacture of plaster products for construction purposes,C23.6.2 ,Construction materials
+NACE,C23.6.3 - Manufacture of ready-mixed concrete,C23.6.3 ,Construction materials
+NACE,C23.6.4 - Manufacture of mortars,C23.6.4 ,Construction materials
+NACE,C23.6.5 - Manufacture of fibre cement,C23.6.5 ,Construction materials
+NACE,"C23.6.9 - Manufacture of other articles of concrete, plaster and cement",C23.6.9 ,Construction materials
+NACE,"C23.7 - Cutting, shaping and finishing of stone",C23.7 ,Construction materials
+NACE,"C23.7.0 - Cutting, shaping and finishing of stone",C23.7.0 ,Construction materials
+NACE,C23.9 - Manufacture of abrasive products and non-metallic mineral products n.e.c.,C23.9 ,Other manufacturing
+NACE,C23.9.1 - Production of abrasive products,C23.9.1 ,Other manufacturing
+NACE,C23.9.9 - Manufacture of other non-metallic mineral products n.e.c.,C23.9.9 ,Other manufacturing
+NACE,C24 - Manufacture of basic metals,C24 ,Business and industrial products
+NACE,C24.1 - Manufacture of basic iron and steel and of ferro-alloys,C24.1 ,Business and industrial products
+NACE,C24.1.0 - Manufacture of basic iron and steel and of ferro-alloys,C24.1.0 ,Business and industrial products
+NACE,"C24.2 - Manufacture of tubes, pipes, hollow profiles and related fittings, of steel",C24.2 ,Business and industrial products
+NACE,"C24.2.0 - Manufacture of tubes, pipes, hollow profiles and related fittings, of steel",C24.2.0 ,Business and industrial products
+NACE,C24.3 - Manufacture of other products of first processing of steel,C24.3 ,Business and industrial products
+NACE,C24.3.1 - Cold drawing of bars,C24.3.1 ,Business and industrial products
+NACE,C24.3.2 - Cold rolling of narrow strip,C24.3.2 ,Business and industrial products
+NACE,C24.3.3 - Cold forming or folding,C24.3.3 ,Business and industrial products
+NACE,C24.3.4 - Cold drawing of wire,C24.3.4 ,Business and industrial products
+NACE,C24.4 - Manufacture of basic precious and other non-ferrous metals,C24.4 ,Business and industrial products
+NACE,C24.4.1 - Precious metals production,C24.4.1 ,Business and industrial products
+NACE,C24.4.2 - Aluminium production,C24.4.2 ,Business and industrial products
+NACE,"C24.4.3 - Lead, zinc and tin production",C24.4.3 ,Business and industrial products
+NACE,C24.4.4 - Copper production,C24.4.4 ,Business and industrial products
+NACE,C24.4.5 - Other non-ferrous metal production,C24.4.5 ,Business and industrial products
+NACE,C24.4.6 - Processing of nuclear fuel,C24.4.6 ,Business and industrial products
+NACE,C24.5 - Casting of metals,C24.5 ,Business and industrial products
+NACE,C24.5.1 - Casting of iron,C24.5.1 ,Business and industrial products
+NACE,C24.5.2 - Casting of steel,C24.5.2 ,Business and industrial products
+NACE,C24.5.3 - Casting of light metals,C24.5.3 ,Business and industrial products
+NACE,C24.5.4 - Casting of other non-ferrous metals,C24.5.4 ,Business and industrial products
+NACE,"C25 - Manufacture of fabricated metal products, except machinery and equipment",C25 ,Business and industrial products
+NACE,C25.1 - Manufacture of structural metal products,C25.1 ,Business and industrial products
+NACE,C25.1.1 - Manufacture of metal structures and parts of structures,C25.1.1 ,Business and industrial products
+NACE,C25.1.2 - Manufacture of doors and windows of metal,C25.1.2 ,Construction: related activities
+NACE,"C25.2 - Manufacture of tanks, reservoirs and containers of metal",C25.2 ,Construction: related activities
+NACE,C25.2.1 - Manufacture of central heating radiators and boilers,C25.2.1 ,Construction: related activities
+NACE,"C25.2.9 - Manufacture of other tanks, reservoirs and containers of metal",C25.2.9 ,Business and industrial products
+NACE,"C25.3 - Manufacture of steam generators, except central heating hot water boilers",C25.3 ,Business and industrial products
+NACE,"C25.3.0 - Manufacture of steam generators, except central heating hot water boilers",C25.3.0 ,Business and industrial products
+NACE,C25.4 - Manufacture of weapons and ammunition,C25.4 ,Business and industrial products
+NACE,C25.4.0 - Manufacture of weapons and ammunition,C25.4.0 ,Business and industrial products
+NACE,"C25.5 - Forging, pressing, stamping and roll-forming of metal; powder metallurgy",C25.5 ,Business and industrial products
+NACE,"C25.5.0 - Forging, pressing, stamping and roll-forming of metal; powder metallurgy",C25.5.0 ,Business and industrial products
+NACE,C25.6 - Treatment and coating of metals; machining,C25.6 ,Business and industrial products
+NACE,C25.6.1 - Treatment and coating of metals,C25.6.1 ,Business and industrial products
+NACE,C25.6.2 - Machining,C25.6.2 ,Business and industrial products
+NACE,"C25.7 - Manufacture of cutlery, tools and general hardware",C25.7 ,Business and industrial products
+NACE,C25.7.1 - Manufacture of cutlery,C25.7.1 ,Household articles
+NACE,C25.7.2 - Manufacture of locks and hinges,C25.7.2 ,Business and industrial products
+NACE,C25.7.3 - Manufacture of tools,C25.7.3 ,Business and industrial products
+NACE,C25.9 - Manufacture of other fabricated metal products,C25.9 ,Business and industrial products
+NACE,C25.9.1 - Manufacture of steel drums and similar containers,C25.9.1 ,Business and industrial products
+NACE,C25.9.2 - Manufacture of light metal packaging,C25.9.2 ,Business and industrial products
+NACE,"C25.9.3 - Manufacture of wire products, chain and springs",C25.9.3 ,Business and industrial products
+NACE,C25.9.4 - Manufacture of fasteners and screw machine products,C25.9.4 ,Business and industrial products
+NACE,C25.9.9 - Manufacture of other fabricated metal products n.e.c.,C25.9.9 ,Business and industrial products
+NACE,"C26 - Manufacture of computer, electronic and optical products",C26 ,Computer hardware
+NACE,C26.1 - Manufacture of electronic components and boards,C26.1 ,Computer hardware
+NACE,C26.1.1 - Manufacture of electronic components,C26.1.1 ,Computer hardware
+NACE,C26.1.2 - Manufacture of loaded electronic boards,C26.1.2 ,Computer hardware
+NACE,C26.2 - Manufacture of computers and peripheral equipment,C26.2 ,Computer hardware
+NACE,C26.2.0 - Manufacture of computers and peripheral equipment,C26.2.0 ,Computer hardware
+NACE,C26.3 - Manufacture of communication equipment,C26.3 ,Communications equipment
+NACE,C26.3.0 - Manufacture of communication equipment,C26.3.0 ,Communications equipment
+NACE,C26.4 - Manufacture of consumer electronics,C26.4 ,Household articles
+NACE,C26.4.0 - Manufacture of consumer electronics,C26.4.0 ,Household articles
+NACE,"C26.5 - Manufacture of instruments and appliances for measuring, testing and navigation; watches and clocks",C26.5 ,"Industrial measurement, sensing and control equipment"
+NACE,"C26.5.1 - Manufacture of instruments and appliances for measuring, testing and navigation",C26.5.1 ,"Industrial measurement, sensing and control equipment"
+NACE,C26.5.2 - Manufacture of watches and clocks,C26.5.2 ,Household articles
+NACE,"C26.6 - Manufacture of irradiation, electromedical and electrotherapeutic equipment",C26.6 ,Medical equipment
+NACE,"C26.6.0 - Manufacture of irradiation, electromedical and electrotherapeutic equipment",C26.6.0 ,Medical equipment
+NACE,C26.7 - Manufacture of optical instruments and photographic equipment,C26.7 ,Business and industrial products
+NACE,C26.7.0 - Manufacture of optical instruments and photographic equipment,C26.7.0 ,Business and industrial services & Other consumer products manufacturing
+NACE,C26.8 - Manufacture of magnetic and optical media,C26.8 ,Computer hardware
+NACE,C26.8.0 - Manufacture of magnetic and optical media,C26.8.0 ,Computer hardware
+NACE,C27 - Manufacture of electrical equipment,C27 ,Energy related products and equipment
+NACE,"C27.1 - Manufacture of electric motors, generators, transformers and electricity distribution and control apparatus",C27.1 ,Energy related products and equipment
+NACE,"C27.1.1 - Manufacture of electric motors, generators and transformers",C27.1.1 ,Energy related products and equipment
+NACE,C27.1.2 - Manufacture of electricity distribution and control apparatus,C27.1.2 ,Energy related products and equipment
+NACE,C27.2 - Manufacture of batteries and accumulators,C27.2 ,Energy related products and equipment
+NACE,C27.2.0 - Manufacture of batteries and accumulators,C27.2.0 ,Energy related products and equipment
+NACE,C27.3 - Manufacture of wiring and wiring devices,C27.3 ,Communications equipment
+NACE,C27.3.1 - Manufacture of fibre optic cables,C27.3.1 ,Communications equipment
+NACE,C27.3.2 - Manufacture of other electronic and electric wires and cables,C27.3.2 ,Communications equipment
+NACE,C27.3.3 - Manufacture of wiring devices,C27.3.3 ,Communications equipment
+NACE,C27.4 - Manufacture of electric lighting equipment,C27.4 ,Household articles
+NACE,C27.4.0 - Manufacture of electric lighting equipment,C27.4.0 ,Household articles
+NACE,C27.5 - Manufacture of domestic appliances,C27.5 ,Household articles
+NACE,C27.5.1 - Manufacture of electric domestic appliances,C27.5.1 ,Household articles
+NACE,C27.5.2 - Manufacture of non-electric domestic appliances,C27.5.2 ,Household articles
+NACE,C27.9 - Manufacture of other electrical equipment,C27.9 ,Household articles
+NACE,C27.9.0 - Manufacture of other electrical equipment,C27.9.0 ,Household articles
+NACE,C28 - Manufacture of machinery and equipment n.e.c.,C28 ,Business and industrial products
+NACE,C28.1 - Manufacture of general-purpose machinery,C28.1 ,Business and industrial products
+NACE,"C28.1.1 - Manufacture of engines and turbines, except aircraft, vehicle and cycle engines",C28.1.1 ,Business and industrial products
+NACE,C28.1.2 - Manufacture of fluid power equipment,C28.1.2 ,Business and industrial products
+NACE,C28.1.3 - Manufacture of other pumps and compressors,C28.1.3 ,Business and industrial products
+NACE,C28.1.4 - Manufacture of other taps and valves,C28.1.4 ,Business and industrial products
+NACE,"C28.1.5 - Manufacture of bearings, gears, gearing and driving elements",C28.1.5 ,Business and industrial products
+NACE,C28.2 - Manufacture of other general-purpose machinery,C28.2 ,Business and industrial products
+NACE,"C28.2.1 - Manufacture of ovens, furnaces and furnace burners",C28.2.1 ,Business and industrial products
+NACE,C28.2.2 - Manufacture of lifting and handling equipment,C28.2.2 ,Business and industrial products
+NACE,C28.2.3 - Manufacture of office machinery and equipment (except computers and peripheral equipment),C28.2.3 ,Business and industrial products
+NACE,C28.2.4 - Manufacture of power-driven hand tools,C28.2.4 ,Business and industrial products
+NACE,C28.2.5 - Manufacture of non-domestic cooling and ventilation equipment,C28.2.5 ,Business and industrial products
+NACE,C28.2.9 - Manufacture of other general-purpose machinery n.e.c.,C28.2.9 ,Business and industrial products
+NACE,C28.3 - Manufacture of agricultural and forestry machinery,C28.3 ,Business and industrial products
+NACE,C28.3.0 - Manufacture of agricultural and forestry machinery,C28.3.0 ,Business and industrial products
+NACE,C28.4 - Manufacture of metal forming machinery and machine tools,C28.4 ,Business and industrial products
+NACE,C28.4.1 - Manufacture of metal forming machinery,C28.4.1 ,Business and industrial products
+NACE,C28.4.9 - Manufacture of other machine tools,C28.4.9 ,Business and industrial products
+NACE,C28.9 - Manufacture of other special-purpose machinery,C28.9 ,Business and industrial products
+NACE,C28.9.1 - Manufacture of machinery for metallurgy,C28.9.1 ,Business and industrial products
+NACE,"C28.9.2 - Manufacture of machinery for mining, quarrying and construction",C28.9.2 ,Business and industrial products
+NACE,"C28.9.3 - Manufacture of machinery for food, beverage and tobacco processing",C28.9.3 ,Business and industrial products
+NACE,"C28.9.4 - Manufacture of machinery for textile, apparel and leather production",C28.9.4 ,Business and industrial products
+NACE,C28.9.5 - Manufacture of machinery for paper and paperboard production,C28.9.5 ,Business and industrial products
+NACE,C28.9.6 - Manufacture of plastics and rubber machinery,C28.9.6 ,Plastic
+NACE,C28.9.9 - Manufacture of other special-purpose machinery n.e.c.,C28.9.9 ,Business and industrial products
+NACE,"C29 - Manufacture of motor vehicles, trailers and semi-trailers",C29 ,Means of transport: manufacturing
+NACE,C29.1 - Manufacture of motor vehicles,C29.1 ,Means of transport: manufacturing
+NACE,C29.1.0 - Manufacture of motor vehicles,C29.1.0 ,Means of transport: manufacturing
+NACE,C29.2 - Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers,C29.2 ,Means of transport: manufacturing
+NACE,C29.2.0 - Manufacture of bodies (coachwork) for motor vehicles; manufacture of trailers and semi-trailers,C29.2.0 ,Means of transport: manufacturing
+NACE,C29.3 - Manufacture of parts and accessories for motor vehicles,C29.3 ,Means of transport: manufacturing
+NACE,C29.3.1 - Manufacture of electrical and electronic equipment for motor vehicles,C29.3.1 ,Means of transport: manufacturing
+NACE,C29.3.2 - Manufacture of other parts and accessories for motor vehicles,C29.3.2 ,Means of transport: manufacturing
+NACE,C30 - Manufacture of other transport equipment,C30 ,Means of transport: manufacturing
+NACE,C30.1 - Building of ships and boats,C30.1 ,Means of transport: manufacturing
+NACE,C30.1.1 - Building of ships and floating structures,C30.1.1 ,Means of transport: manufacturing
+NACE,C30.1.2 - Building of pleasure and sporting boats,C30.1.2 ,Means of transport: manufacturing
+NACE,C30.2 - Manufacture of railway locomotives and rolling stock,C30.2 ,Means of transport: manufacturing
+NACE,C30.2.0 - Manufacture of railway locomotives and rolling stock,C30.2.0 ,Means of transport: manufacturing
+NACE,C30.3 - Manufacture of air and spacecraft and related machinery,C30.3 ,Means of transport: manufacturing
+NACE,C30.3.0 - Manufacture of air and spacecraft and related machinery,C30.3.0 ,Means of transport: manufacturing
+NACE,C30.4 - Manufacture of military fighting vehicles,C30.4 ,Means of transport: manufacturing
+NACE,C30.4.0 - Manufacture of military fighting vehicles,C30.4.0 ,Means of transport: manufacturing
+NACE,C30.9 - Manufacture of transport equipment n.e.c.,C30.9 ,Means of transport: manufacturing
+NACE,C30.9.1 - Manufacture of motorcycles,C30.9.1 ,Means of transport: manufacturing
+NACE,C30.9.2 - Manufacture of bicycles and invalid carriages,C30.9.2 ,Means of transport: manufacturing
+NACE,C30.9.9 - Manufacture of other transport equipment n.e.c.,C30.9.9 ,Means of transport: manufacturing
+NACE,C31 - Manufacture of furniture,C31 ,Household furniture
+NACE,C31.0 - Manufacture of furniture,C31.0 ,Household furniture
+NACE,C31.0.1 - Manufacture of office and shop furniture,C31.0.1 ,Household furniture
+NACE,C31.0.2 - Manufacture of kitchen furniture,C31.0.2 ,Household furniture
+NACE,C31.0.3 - Manufacture of mattresses,C31.0.3 ,Household furniture
+NACE,C31.0.9 - Manufacture of other furniture,C31.0.9 ,Household furniture
+NACE,C32 - Other manufacturing,C32 ,Other consumer products manufacturing
+NACE,"C32.1 - Manufacture of jewellery, bijouterie and related articles",C32.1 ,Fashion industry
+NACE,C32.1.1 - Striking of coins,C32.1.1 ,Not in our scope
+NACE,C32.1.2 - Manufacture of jewellery and related articles,C32.1.2 ,Fashion industry
+NACE,C32.1.3 - Manufacture of imitation jewellery and related articles,C32.1.3 ,Fashion industry
+NACE,C32.2 - Manufacture of musical instruments,C32.2 ,Other consumer products manufacturing
+NACE,C32.2.0 - Manufacture of musical instruments,C32.2.0 ,Other consumer products manufacturing
+NACE,C32.3 - Manufacture of sports goods,C32.3 ,Other consumer products manufacturing
+NACE,C32.3.0 - Manufacture of sports goods,C32.3.0 ,Other consumer products manufacturing
+NACE,C32.4 - Manufacture of games and toys,C32.4 ,Other consumer products manufacturing
+NACE,C32.4.0 - Manufacture of games and toys,C32.4.0 ,Other consumer products manufacturing
+NACE,C32.5 - Manufacture of medical and dental instruments and supplies,C32.5 ,Medical devices and supplies
+NACE,C32.5.0 - Manufacture of medical and dental instruments and supplies,C32.5.0 ,Medical devices and supplies
+NACE,C32.9 - Manufacturing n.e.c.,C32.9 ,Other consumer products manufacturing
+NACE,C32.9.1 - Manufacture of brooms and brushes,C32.9.1 ,Household articles
+NACE,C32.9.9 - Other manufacturing n.e.c.,C32.9.9 ,Other consumer products manufacturing
+NACE,C33 - Repair and installation of machinery and equipment,C33 ,Other consumer services
+NACE,"C33.1 - Repair of fabricated metal products, machinery and equipment",C33.1 ,Business and industrial services
+NACE,C33.1.1 - Repair of fabricated metal products,C33.1.1 ,Business and industrial products
+NACE,C33.1.2 - Repair of machinery,C33.1.2 ,Business and industrial services
+NACE,C33.1.3 - Repair of electronic and optical equipment,C33.1.3 ,Medical equipment
+NACE,C33.1.4 - Repair of electrical equipment,C33.1.4 ,Business and industrial services
+NACE,C33.1.5 - Repair and maintenance of ships and boats,C33.1.5 ,Means of transport: repair and maintenance
+NACE,C33.1.6 - Repair and maintenance of aircraft and spacecraft,C33.1.6 ,Means of transport: repair and maintenance
+NACE,C33.1.7 - Repair and maintenance of other transport equipment,C33.1.7 ,Means of transport: repair and maintenance
+NACE,C33.1.9 - Repair of other equipment,C33.1.9 ,Business and industrial services
+NACE,C33.2 - Installation of industrial machinery and equipment,C33.2 ,Business and industrial services
+NACE,C33.2.0 - Installation of industrial machinery and equipment,C33.2.0 ,Business and industrial services
+NACE,"D35 - Electricity, gas, steam and air conditioning supply",D35 ,Hydroelectricity
+NACE,"D35.1 - Electric power generation, transmission and distribution",D35.1 ,Hydroelectricity & Alternative energy
+NACE,D35.1.1 - Production of electricity,D35.1.1 ,Hydroelectricity & Alternative energy
+NACE,D35.1.2 - Transmission of electricity,D35.1.2 ,Hydroelectricity & Alternative energy
+NACE,D35.1.3 - Distribution of electricity,D35.1.3 ,Hydroelectricity & Alternative energy
+NACE,D35.1.4 - Trade of electricity,D35.1.4 ,Hydroelectricity & Alternative energy
+NACE,D35.2 - Manufacture of gas; distribution of gaseous fuels through mains,D35.2 ,Gas and oil
+NACE,D35.2.1 - Manufacture of gas,D35.2.1 ,Gas and oil
+NACE,D35.2.2 - Distribution of gaseous fuels through mains,D35.2.2 ,Gas and oil
+NACE,D35.2.3 - Trade of gas through mains,D35.2.3 ,Gas and oil
+NACE,D35.3 - Steam and air conditioning supply,D35.3 ,Business and industrial services
+NACE,D35.3.0 - Steam and air conditioning supply,D35.3.0 ,Business and industrial services
+NACE,"E36 - Water collection, treatment and supply",E36 ,"Other environmental services (pollution measurement, noise abatement services, nature and landscape protection services … )"
+NACE,"E36.0 - Water collection, treatment and supply",E36.0 ,"Other environmental services (pollution measurement, noise abatement services, nature and landscape protection services … )"
+NACE,"E36.0.0 - Water collection, treatment and supply",E36.0.0 ,"Other environmental services (pollution measurement, noise abatement services, nature and landscape protection services … )"
+NACE,E37 - Sewerage,E37 ,"Other environmental services (pollution measurement, noise abatement services, nature and landscape protection services … )"
+NACE,E37.0 - Sewerage,E37.0 ,"Other environmental services (pollution measurement, noise abatement services, nature and landscape protection services … )"
+NACE,E37.0.0 - Sewerage,E37.0.0 ,"Other environmental services (pollution measurement, noise abatement services, nature and landscape protection services … )"
+NACE,"E38 - Waste collection, treatment and disposal activities; materials recovery",E38 ,"Sorting, recycling and processing of waste & Environment Infrastructure"
+NACE,E38.1 - Waste collection,E38.1 ,"Sorting, recycling and processing of waste & Environment Infrastructure"
+NACE,E38.1.1 - Collection of non-hazardous waste,E38.1.1 ,"Sorting, recycling and processing of waste & Environment Infrastructure"
+NACE,E38.1.2 - Collection of hazardous waste,E38.1.2 ,"Sorting, recycling and processing of waste & Environment Infrastructure"
+NACE,E38.2 - Waste treatment and disposal,E38.2 ,"Sorting, recycling and processing of waste & Environment Infrastructure"
+NACE,E38.2.1 - Treatment and disposal of non-hazardous waste,E38.2.1 ,"Sorting, recycling and processing of waste & Environment Infrastructure"
+NACE,E38.2.2 - Treatment and disposal of hazardous waste,E38.2.2 ,"Sorting, recycling and processing of waste & Environment Infrastructure"
+NACE,E38.3 - Materials recovery,E38.3 ,"Sorting, recycling and processing of waste & Environment Infrastructure"
+NACE,E38.3.1 - Dismantling of wrecks,E38.3.1 ,"Sorting, recycling and processing of waste & Environment Infrastructure"
+NACE,E38.3.2 - Recovery of sorted materials,E38.3.2 ,"Sorting, recycling and processing of waste & Environment Infrastructure"
+NACE,E39 - Remediation activities and other waste management services,E39 ,"Other environmental services (pollution measurement, noise abatement services, nature and landscape protection services … )"
+NACE,E39.0 - Remediation activities and other waste management services,E39.0 ,"Other environmental services (pollution measurement, noise abatement services, nature and landscape protection services … )"
+NACE,E39.0.0 - Remediation activities and other waste management services,E39.0.0 ,"Other environmental services (pollution measurement, noise abatement services, nature and landscape protection services … )"
+NACE,F41 - Construction of buildings,F41 ,Construction: related activities
+NACE,F41.1 - Development of building projects,F41.1 ,Construction: related activities
+NACE,F41.1.0 - Development of building projects,F41.1.0 ,Construction: related activities
+NACE,F41.2 - Construction of residential and non-residential buildings,F41.2 ,Construction: related activities
+NACE,F41.2.0 - Construction of residential and non-residential buildings,F41.2.0 ,Construction: related activities
+NACE,F42.1 - Construction of roads and railways,F42.1 ,Roads and bridges
+NACE,F42.1.1 - Construction of roads and motorways,F42.1.1 ,Roads and bridges
+NACE,F42.1.2 - Construction of railways and underground railways,F42.1.2 ,Railways and metros
+NACE,F42.1.3 - Construction of bridges and tunnels,F42.1.3 ,Roads and bridges
+NACE,F42.2 - Construction of utility projects,F42.2 ,Social Infrastructure & Environment (Infrastructure)
+NACE,F42.2.1 - Construction of utility projects for fluids,F42.2.1 ,Social Infrastructure
+NACE,F42.2.2 - Construction of utility projects for electricity and telecommunications,F42.2.2 ,Hydroelectricity & Alternative energy & Infrastructure- Renewable Energy- Conventional Energy
+NACE,F42.9.1 - Construction of water projects,F42.9.1 ,Ports
+NACE,F42.9.9 - Construction of other civil engineering projects n.e.c.,F42.9.9 ,Infrastructure-Other
+NACE,F43 - Specialised construction activities,F43 ,Construction: related activities
+NACE,F43.1 - Demolition and site preparation,F43.1 ,Construction: related activities
+NACE,F43.1.1 - Demolition,F43.1.1 ,Construction: related activities
+NACE,F43.1.2 - Site preparation,F43.1.2 ,Construction: related activities
+NACE,F43.1.3 - Test drilling and boring,F43.1.3 ,Construction: related activities
+NACE,"F43.2 - Electrical, plumbing and other construction installation activities",F43.2 ,Construction: related activities
+NACE,F43.2.1 - Electrical installation,F43.2.1 ,Energy related products and equipment
+NACE,"F43.2.2 - Plumbing, heat and air-conditioning installation",F43.2.2 ,Construction: related activities
+NACE,F43.2.9 - Other construction installation,F43.2.9 ,Construction: related activities
+NACE,F43.3 - Building completion and finishing,F43.3 ,Construction: related activities
+NACE,F43.3.1 - Plastering,F43.3.1 ,Construction: related activities
+NACE,F43.3.2 - Joinery installation,F43.3.2 ,Construction: related activities
+NACE,F43.3.3 - Floor and wall covering,F43.3.3 ,Construction: related activities
+NACE,F43.3.4 - Painting and glazing,F43.3.4 ,Construction: related activities
+NACE,F43.3.9 - Other building completion and finishing,F43.3.9 ,Construction: related activities
+NACE,F43.9 - Other specialised construction activities,F43.9 ,Construction: related activities
+NACE,F43.9.1 - Roofing activities,F43.9.1 ,Construction: related activities
+NACE,F43.9.9 - Other specialised construction activities n.e.c.,F43.9.9 ,Construction: related activities
+NACE,G45 - Wholesale and retail trade and repair of motor vehicles and motorcycles,G45 ,Business and industrial services & Other consumer products retailing
+NACE,G45.1 - Sale of motor vehicles,G45.1 ,Business and industrial services & Other consumer products retailing
+NACE,G45.1.1 - Sale of cars and light motor vehicles,G45.1.1 ,Business and industrial services & Other consumer products retailing
+NACE,G45.1.9 - Sale of other motor vehicles,G45.1.9 ,Business and industrial services & Other consumer products retailing
+NACE,G45.2 - Maintenance and repair of motor vehicles,G45.2 ,Means of transport: repair and maintenance
+NACE,G45.2.0 - Maintenance and repair of motor vehicles,G45.2.0 ,Means of transport: repair and maintenance
+NACE,G45.3 - Sale of motor vehicle parts and accessories,G45.3 ,Business and industrial services & Other consumer products retailing
+NACE,G45.3.1 - Wholesale trade of motor vehicle parts and accessories,G45.3.1 ,Business and industrial services & Other consumer products retailing
+NACE,G45.3.2 - Retail trade of motor vehicle parts and accessories,G45.3.2 ,Means of transport: repair and maintenance
+NACE,"G45.4 - Sale, maintenance and repair of motorcycles and related parts and accessories",G45.4 ,Business and industrial services & Other consumer products retailing
+NACE,"G45.4.0 - Sale, maintenance and repair of motorcycles and related parts and accessories",G45.4.0 ,Business and industrial services & Other consumer products retailing
+NACE,"G46 - Wholesale trade, except of motor vehicles and motorcycles",G46 ,Business and industrial services
+NACE,G46.1 - Wholesale on a fee or contract basis,G46.1 ,Business and industrial services
+NACE,"G46.1.1 - Agents involved in the sale of agricultural raw materials, live animals, textile raw materials and semi-finished goods",G46.1.1 ,Mixed farming
+NACE,"G46.1.2 - Agents involved in the sale of fuels, ores, metals and industrial chemicals",G46.1.2 ,Chemicals and materials: service related activities
+NACE,G46.1.3 - Agents involved in the sale of timber and building materials,G46.1.3 ,Construction: related activities
+NACE,"G46.1.4 - Agents involved in the sale of machinery, industrial equipment, ships and aircraft",G46.1.4 ,Business and industrial services
+NACE,"G46.1.5 - Agents involved in the sale of furniture, household goods, hardware and ironmongery",G46.1.5 ,Retail of household articles
+NACE,"G46.1.6 - Agents involved in the sale of textiles, clothing, fur, footwear and leather goods",G46.1.6 ,Retail of fashion products
+NACE,"G46.1.7 - Agents involved in the sale of food, beverages and tobacco",G46.1.7 ,"Restaurants, food services"
+NACE,G46.1.8 - Agents specialised in the sale of other particular products,G46.1.8 ,Other consumer products retailing
+NACE,G46.1.9 - Agents involved in the sale of a variety of goods,G46.1.9 ,Other consumer products retailing
+NACE,G46.2 - Wholesale of agricultural raw materials and live animals,G46.2 ,Business and industrial services
+NACE,"G46.2.1 - Wholesale of grain, unmanufactured tobacco, seeds and animal feeds",G46.2.1 ,Business and industrial services
+NACE,G46.2.2 - Wholesale of flowers and plants,G46.2.2 ,Business and industrial services
+NACE,G46.2.3 - Wholesale of live animals,G46.2.3 ,Business and industrial services
+NACE,"G46.2.4 - Wholesale of hides, skins and leather",G46.2.4 ,Business and industrial services
+NACE,"G46.3 - Wholesale of food, beverages and tobacco",G46.3 ,Business and industrial services
+NACE,G46.3.1 - Wholesale of fruit and vegetables,G46.3.1 ,Business and industrial services
+NACE,G46.3.2 - Wholesale of meat and meat products,G46.3.2 ,Business and industrial services
+NACE,"G46.3.3 - Wholesale of dairy products, eggs and edible oils and fats",G46.3.3 ,Business and industrial services
+NACE,G46.3.4 - Wholesale of beverages,G46.3.4 ,Business and industrial services
+NACE,G46.3.5 - Wholesale of tobacco products,G46.3.5 ,Business and industrial services
+NACE,G46.3.6 - Wholesale of sugar and chocolate and sugar confectionery,G46.3.6 ,Business and industrial services
+NACE,"G46.3.7 - Wholesale of coffee, tea, cocoa and spices",G46.3.7 ,Business and industrial services
+NACE,"G46.3.8 - Wholesale of other food, including fish, crustaceans and molluscs",G46.3.8 ,Business and industrial services
+NACE,"G46.3.9 - Non-specialised wholesale of food, beverages and tobacco",G46.3.9 ,Business and industrial services
+NACE,G46.4 - Wholesale of household goods,G46.4 ,Business and industrial services
+NACE,G46.4.1 - Wholesale of textiles,G46.4.1 ,Business and industrial services
+NACE,G46.4.2 - Wholesale of clothing and footwear,G46.4.2 ,Business and industrial services
+NACE,G46.4.3 - Wholesale of electrical household appliances,G46.4.3 ,Business and industrial services
+NACE,G46.4.4 - Wholesale of china and glassware and cleaning materials,G46.4.4 ,Business and industrial services
+NACE,G46.4.5 - Wholesale of perfume and cosmetics,G46.4.5 ,Business and industrial services
+NACE,G46.4.6 - Wholesale of pharmaceutical goods,G46.4.6 ,Business and industrial services
+NACE,"G46.4.7 - Wholesale of furniture, carpets and lighting equipment",G46.4.7 ,Business and industrial services
+NACE,G46.4.8 - Wholesale of watches and jewellery,G46.4.8 ,Business and industrial services
+NACE,G46.4.9 - Wholesale of other household goods,G46.4.9 ,Business and industrial services
+NACE,G46.5 - Wholesale of information and communication equipment,G46.5 ,Communications: retail/wholesale and repair activities
+NACE,"G46.5.1 - Wholesale of computers, computer peripheral equipment and software",G46.5.1 ,Communications: retail/wholesale and repair activities
+NACE,G46.5.2 - Wholesale of electronic and telecommunications equipment and parts,G46.5.2 ,Communications: retail/wholesale and repair activities
+NACE,"G46.6 - Wholesale of other machinery, equipment and supplies",G46.6 ,Business and industrial services
+NACE,"G46.6.1 - Wholesale of agricultural machinery, equipment and supplies",G46.6.1 ,Business and industrial services
+NACE,G46.6.2 - Wholesale of machine tools,G46.6.2 ,Business and industrial services
+NACE,"G46.6.3 - Wholesale of mining, construction and civil engineering machinery",G46.6.3 ,Business and industrial services
+NACE,G46.6.4 - Wholesale of machinery for the textile industry and of sewing and knitting machines,G46.6.4 ,Business and industrial services
+NACE,G46.6.5 - Wholesale of office furniture,G46.6.5 ,Business and industrial services
+NACE,G46.6.6 - Wholesale of other office machinery and equipment,G46.6.6 ,Business and industrial services
+NACE,G46.6.9 - Wholesale of other machinery and equipment,G46.6.9 ,Business and industrial services
+NACE,G46.7 - Other specialised wholesale,G46.7 ,Business and industrial services
+NACE,"G46.7.1 - Wholesale of solid, liquid and gaseous fuels and related products",G46.7.1 ,Business and industrial services
+NACE,G46.7.2 - Wholesale of metals and metal ores,G46.7.2 ,Business and industrial services
+NACE,"G46.7.3 - Wholesale of wood, construction materials and sanitary equipment",G46.7.3 ,Business and industrial services
+NACE,"G46.7.4 - Wholesale of hardware, plumbing and heating equipment and supplies",G46.7.4 ,Business and industrial services
+NACE,G46.7.5 - Wholesale of chemical products,G46.7.5 ,Chemicals and materials: service related activities
+NACE,G46.7.6 - Wholesale of other intermediate products,G46.7.6 ,Chemicals and materials: service related activities
+NACE,G46.7.7 - Wholesale of waste and scrap,G46.7.7 ,Business and industrial services
+NACE,G46.9 - Non-specialised wholesale trade,G46.9 ,Business and industrial services
+NACE,G46.9.0 - Non-specialised wholesale trade,G46.9.0 ,Business and industrial services
+NACE,"G47 - Retail trade, except of motor vehicles and motorcycles",G47 ,Other consumer products retailing
+NACE,G47.1 - Retail sale in non-specialised stores,G47.1 ,Other consumer products retailing
+NACE,"G47.1.1 - Retail sale in non-specialised stores with food, beverages or tobacco predominating",G47.1.1 ,Retail of food and beverages
+NACE,G47.1.9 - Other retail sale in non-specialised stores,G47.1.9 ,Retail of food and beverages
+NACE,"G47.2 - Retail sale of food, beverages and tobacco in specialised stores",G47.2 ,Retail of food and beverages
+NACE,G47.2.1 - Retail sale of fruit and vegetables in specialised stores,G47.2.1 ,Retail of food and beverages
+NACE,G47.2.2 - Retail sale of meat and meat products in specialised stores,G47.2.2 ,Retail of food and beverages
+NACE,"G47.2.3 - Retail sale of fish, crustaceans and molluscs in specialised stores",G47.2.3 ,Retail of food and beverages
+NACE,"G47.2.4 - Retail sale of bread, cakes, flour confectionery and sugar confectionery in specialised stores",G47.2.4 ,Retail of food and beverages
+NACE,G47.2.5 - Retail sale of beverages in specialised stores,G47.2.5 ,Retail of food and beverages
+NACE,G47.2.6 - Retail sale of tobacco products in specialised stores,G47.2.6 ,Other consumer products retailing
+NACE,G47.2.9 - Other retail sale of food in specialised stores,G47.2.9 ,Other consumer products retailing
+NACE,G47.3 - Retail sale of automotive fuel in specialised stores,G47.3 ,Other consumer services
+NACE,G47.3.0 - Retail sale of automotive fuel in specialised stores,G47.3.0 ,Other consumer services
+NACE,G47.4 - Retail sale of information and communication equipment in specialised stores,G47.4 ,Communications: retail/wholesale and repair activities
+NACE,"G47.4.1 - Retail sale of computers, peripheral units and software in specialised stores",G47.4.1 ,Computer: retail/wholesale and repair activities
+NACE,G47.4.2 - Retail sale of telecommunications equipment in specialised stores,G47.4.2 ,Communications: retail/wholesale and repair activities
+NACE,G47.4.3 - Retail sale of audio and video equipment in specialised stores,G47.4.3 ,Communications: retail/wholesale and repair activities
+NACE,G47.5 - Retail sale of other household equipment in specialised stores,G47.5 ,Retail of household articles
+NACE,G47.5.1 - Retail sale of textiles in specialised stores,G47.5.1 ,Other consumer products retailing
+NACE,"G47.5.2 - Retail sale of hardware, paints and glass in specialised stores",G47.5.2 ,Other consumer products retailing
+NACE,"G47.5.3 - Retail sale of carpets, rugs, wall and floor coverings in specialised stores",G47.5.3 ,Retail of household articles
+NACE,G47.5.4 - Retail sale of electrical household appliances in specialised stores,G47.5.4 ,Retail of household articles
+NACE,"G47.5.9 - Retail sale of furniture, lighting equipment and other household articles in specialised stores",G47.5.9 ,Retail of household articles
+NACE,G47.6 - Retail sale of cultural and recreation goods in specialised stores,G47.6 ,Other consumer products retailing
+NACE,G47.6.1 - Retail sale of books in specialised stores,G47.6.1 ,Other consumer products retailing
+NACE,G47.6.2 - Retail sale of newspapers and stationery in specialised stores,G47.6.2 ,Other consumer products retailing
+NACE,G47.6.3 - Retail sale of music and video recordings in specialised stores,G47.6.3 ,Other consumer products retailing
+NACE,G47.6.4 - Retail sale of sporting equipment in specialised stores,G47.6.4 ,Other consumer products retailing
+NACE,G47.6.5 - Retail sale of games and toys in specialised stores,G47.6.5 ,Other consumer products retailing
+NACE,G47.7 - Retail sale of other goods in specialised stores,G47.7 ,Other consumer products retailing
+NACE,G47.7.1 - Retail sale of clothing in specialised stores,G47.7.1 ,Retail of fashion products
+NACE,G47.7.2 - Retail sale of footwear and leather goods in specialised stores,G47.7.2 ,Retail of fashion products
+NACE,G47.7.3 - Dispensing chemist in specialised stores,G47.7.3 ,Other consumer products retailing
+NACE,G47.7.4 - Retail sale of medical and orthopaedic goods in specialised stores,G47.7.4 ,Medical devices and supplies
+NACE,G47.7.5 - Retail sale of cosmetic and toilet articles in specialised stores,G47.7.5 ,Retail of fashion products
+NACE,"G47.7.6 - Retail sale of flowers, plants, seeds, fertilisers, pet animals and pet food in specialised stores",G47.7.6 ,Other consumer products retailing
+NACE,G47.7.7 - Retail sale of watches and jewellery in specialised stores,G47.7.7 ,Retail of fashion products
+NACE,G47.7.8 - Other retail sale of new goods in specialised stores,G47.7.8 ,Other consumer products retailing
+NACE,G47.7.9 - Retail sale of second-hand goods in stores,G47.7.9 ,Other consumer products retailing
+NACE,G47.8 - Retail sale via stalls and markets,G47.8 ,Other consumer products retailing
+NACE,"G47.8.1 - Retail sale via stalls and markets of food, beverages and tobacco products",G47.8.1 ,Retail of food and beverages
+NACE,"G47.8.2 - Retail sale via stalls and markets of textiles, clothing and footwear",G47.8.2 ,Retail of fashion products
+NACE,G47.8.9 - Retail sale via stalls and markets of other goods,G47.8.9 ,Other consumer products retailing
+NACE,"G47.9 - Retail trade not in stores, stalls or markets",G47.9 ,Other consumer products retailing
+NACE,G47.9.1 - Retail sale via mail order houses or via Internet,G47.9.1 ,Other consumer products retailing
+NACE,"G47.9.9 - Other retail sale not in stores, stalls or markets",G47.9.9 ,Other consumer products retailing
+NACE,H49 - Land transport and transport via pipelines,H49 ,-
+NACE,"H49.1 - Passenger rail transport, interurban",H49.1 ,Passenger transport
+NACE,"H49.1.0 - Passenger rail transport, interurban",H49.1.0 ,Passenger transport
+NACE,H49.2 - Freight rail transport,H49.2 ,Freight transport
+NACE,H49.2.0 - Freight rail transport,H49.2.0 ,Freight transport
+NACE,H49.3 - Other passenger land transport,H49.3 ,Passenger transport
+NACE,H49.3.1 - Urban and suburban passenger land transport,H49.3.1 ,Passenger transport
+NACE,H49.3.2 - Taxi operation,H49.3.2 ,Passenger transport
+NACE,H49.3.9 - Other passenger land transport n.e.c.,H49.3.9 ,Passenger transport
+NACE,H49.4 - Freight transport by road and removal services,H49.4 ,Freight transport
+NACE,H49.4.1 - Freight transport by road,H49.4.1 ,Freight transport
+NACE,H49.4.2 - Removal services,H49.4.2 ,Means of transport: repair and maintenance
+NACE,H49.5 - Transport via pipeline,H49.5 ,Other energy
+NACE,H49.5.0 - Transport via pipeline,H49.5.0 ,Other energy
+NACE,H50 - Water transport,H50 ,-
+NACE,H50.1 - Sea and coastal passenger water transport,H50.1 ,Passenger transport
+NACE,H50.1.0 - Sea and coastal passenger water transport,H50.1.0 ,Passenger transport
+NACE,H50.2 - Sea and coastal freight water transport,H50.2 ,Freight transport
+NACE,H50.2.0 - Sea and coastal freight water transport,H50.2.0 ,Freight transport
+NACE,H50.3 - Inland passenger water transport,H50.3 ,Passenger transport
+NACE,H50.3.0 - Inland passenger water transport,H50.3.0 ,Passenger transport
+NACE,H50.4 - Inland freight water transport,H50.4 ,Freight transport
+NACE,H50.4.0 - Inland freight water transport,H50.4.0 ,Freight transport
+NACE,H51 - Air transport,-,-
+NACE,H51.1 - Passenger air transport,H51.1 ,Passenger transport
+NACE,H51.1.0 - Passenger air transport,H51.1.0 ,Passenger transport
+NACE,H51.2 - Freight air transport and space transport,H51.2 ,Freight transport
+NACE,H51.2.1 - Freight air transport,H51.2.1 ,Freight transport
+NACE,H51.2.2 - Space transport,H51.2.2 ,Not in our scope
+NACE,H52 - Warehousing and support activities for transportation,H52 ,Freight transport
+NACE,H52.1 - Warehousing and storage,H52.1 ,Business and industrial services
+NACE,H52.1.0 - Warehousing and storage,H52.1.0 ,Business and industrial services
+NACE,H52.2 - Support activities for transportation,H52.2 ,Freight transport
+NACE,H52.2.1 - Service activities incidental to land transportation,H52.2.1 ,Freight transport
+NACE,H52.2.2 - Service activities incidental to water transportation,H52.2.2 ,Freight transport
+NACE,H52.2.3 - Service activities incidental to air transportation,H52.2.3 ,Freight transport
+NACE,H52.2.4 - Cargo handling,H52.2.4 ,Freight transport
+NACE,H52.2.9 - Other transportation support activities,H52.2.9 ,Freight transport
+NACE,H53 - Postal and courier activities,H53 ,Courier services
+NACE,H53.1 - Postal activities under universal service obligation,H53.1 ,Courier services
+NACE,H53.1.0 - Postal activities under universal service obligation,H53.1.0 ,Courier services
+NACE,H53.2 - Other postal and courier activities,H53.2 ,Courier services
+NACE,H53.2.0 - Other postal and courier activities,H53.2.0 ,Courier services
+NACE,I55 - Accommodation,I55 ,"Hospitality, sports and entertainment facilities"
+NACE,I55.1 - Hotels and similar accommodation,I55.1 ,"Hospitality, sports and entertainment facilities"
+NACE,I55.1.0 - Hotels and similar accommodation,I55.1.0 ,"Hospitality, sports and entertainment facilities"
+NACE,I55.2 - Holiday and other short-stay accommodation,I55.2 ,"Hospitality, sports and entertainment facilities"
+NACE,I55.2.0 - Holiday and other short-stay accommodation,I55.2.0 ,"Hospitality, sports and entertainment facilities"
+NACE,"I55.3 - Camping grounds, recreational vehicle parks and trailer parks",I55.3 ,"Hospitality, sports and entertainment facilities"
+NACE,"I55.3.0 - Camping grounds, recreational vehicle parks and trailer parks",I55.3.0 ,"Hospitality, sports and entertainment facilities"
+NACE,I55.9 - Other accommodation,I55.9 ,"Hospitality, sports and entertainment facilities"
+NACE,I55.9.0 - Other accommodation,I55.9.0 ,"Hospitality, sports and entertainment facilities"
+NACE,I56 - Food and beverage service activities,I56 ,"Restaurants, food services"
+NACE,I56.1 - Restaurants and mobile food service activities,I56.1 ,"Restaurants, food services"
+NACE,I56.1.0 - Restaurants and mobile food service activities,I56.1.0 ,"Restaurants, food services"
+NACE,I56.2 - Event catering and other food service activities,I56.2 ,"Restaurants, food services"
+NACE,I56.2.1 - Event catering activities,I56.2.1 ,"Restaurants, food services"
+NACE,I56.2.9 - Other food service activities,I56.2.9 ,"Restaurants, food services"
+NACE,I56.3 - Beverage serving activities,I56.3 ,"Restaurants, food services"
+NACE,I56.3.0 - Beverage serving activities,I56.3.0 ,"Restaurants, food services"
+NACE,J58 - Publishing activities,J58 ,"Broadcasting, publications and content providers"
+NACE,"J58.1 - Publishing of books, periodicals and other publishing activities",J58.1 ,"Broadcasting, publications and content providers"
+NACE,J58.1.1 - Book publishing,J58.1.1 ,"Broadcasting, publications and content providers"
+NACE,J58.1.2 - Publishing of directories and mailing lists,J58.1.2 ,"Broadcasting, publications and content providers"
+NACE,J58.1.3 - Publishing of newspapers,J58.1.3 ,"Broadcasting, publications and content providers"
+NACE,J58.1.4 - Publishing of journals and periodicals,J58.1.4 ,"Broadcasting, publications and content providers"
+NACE,J58.1.9 - Other publishing activities,J58.1.9 ,"Broadcasting, publications and content providers"
+NACE,J58.2 - Software publishing,J58.2 ,Other software
+NACE,J58.2.1 - Publishing of computer games,J58.2.1 ,Other software
+NACE,J58.2.9 - Other software publishing,J58.2.9 ,Other software
+NACE,"J59 - Motion picture, video and television programme production, sound recording and music publishing activities",J59 ,"Broadcasting, publications and content providers"
+NACE,"J59.1 - Motion picture, video and television programme activities",J59.1 ,"Broadcasting, publications and content providers"
+NACE,"J59.1.1 - Motion picture, video and television programme production activities",J59.1.1 ,"Broadcasting, publications and content providers"
+NACE,"J59.1.2 - Motion picture, video and television programme post-production activities",J59.1.2 ,"Broadcasting, publications and content providers"
+NACE,"J59.1.3 - Motion picture, video and television programme distribution activities",J59.1.3 ,"Broadcasting, publications and content providers"
+NACE,J59.1.4 - Motion picture projection activities,J59.1.4 ,"Broadcasting, publications and content providers"
+NACE,J59.2 - Sound recording and music publishing activities,J59.2 ,"Broadcasting, publications and content providers"
+NACE,J59.2.0 - Sound recording and music publishing activities,J59.2.0 ,"Broadcasting, publications and content providers"
+NACE,J60 - Programming and broadcasting activities,J60 ,"Broadcasting, publications and content providers"
+NACE,J60.1 - Radio broadcasting,J60.1 ,"Broadcasting, publications and content providers"
+NACE,J60.1.0 - Radio broadcasting,J60.1.0 ,"Broadcasting, publications and content providers"
+NACE,J60.2 - Television programming and broadcasting activities,J60.2 ,"Broadcasting, publications and content providers"
+NACE,J60.2.0 - Television programming and broadcasting activities,J60.2.0 ,"Broadcasting, publications and content providers"
+NACE,J61 - Telecommunications,J61 ,Telecom carriers & Telecommunications Infrastructure
+NACE,J61.1 - Wired telecommunications activities,J61.1 ,Telecom carriers
+NACE,J61.1.0 - Wired telecommunications activities,J61.1.0 ,Telecom carriers
+NACE,J61.2 - Wireless telecommunications activities,J61.2 ,Telecom carriers
+NACE,J61.2.0 - Wireless telecommunications activities,J61.2.0 ,Telecom carriers
+NACE,J61.3 - Satellite telecommunications activities,J61.3 ,Telecom carriers
+NACE,J61.3.0 - Satellite telecommunications activities,J61.3.0 ,Telecom carriers
+NACE,J61.9 - Other telecommunications activities,J61.9 ,Telecom carriers
+NACE,J61.9.0 - Other telecommunications activities,J61.9.0 ,Telecom carriers
+NACE,"J62 - Computer programming, consultancy and related activities",J62 ,Application software & Systems software
+NACE,"J62.0 - Computer programming, consultancy and related activities",J62.0 ,Application software & Systems software
+NACE,J62.0.1 - Computer programming activities,J62.0.1 ,Application software & Systems software
+NACE,J62.0.2 - Computer consultancy activities,J62.0.2 ,Application software & Systems software
+NACE,J62.0.3 - Computer facilities management activities,J62.0.3 ,Data management services
+NACE,J62.0.9 - Other information technology and computer service activities,J62.0.9 ,Data management services
+NACE,J63 - Information service activities,J63 ,Online platforms
+NACE,"J63.1 - Data processing, hosting and related activities; web portals",J63.1 ,Online platforms
+NACE,"J63.1.1 - Data processing, hosting and related activities",J63.1.1 ,Online platforms
+NACE,J63.1.2 - Web portals,J63.1.2 ,Online platforms
+NACE,J63.9 - Other information service activities,J63.9 ,"Broadcasting, publications and content providers"
+NACE,J63.9.1 - News agency activities,J63.9.1 ,"Broadcasting, publications and content providers"
+NACE,J63.9.9 - Other information service activities n.e.c.,J63.9.9 ,"Broadcasting, publications and content providers"
+NACE,"K64 - Financial service activities, except insurance and pension funding",K64 ,Other financial services
+NACE,K64.1 - Monetary intermediation,K64.1 ,Banks
+NACE,K64.1.1 - Central banking,K64.1.1 ,Not in our scope
+NACE,K64.1.9 - Other monetary intermediation,K64.1.9 ,Other financial services
+NACE,K64.2 - Activities of holding companies,K64.2 ,Other financial services
+NACE,K64.2.0 - Activities of holding companies,K64.2.0 ,Other financial services
+NACE,"K64.3 - Trusts, funds and similar financial entities",K64.3 ,Other financial services
+NACE,"K64.3.0 - Trusts, funds and similar financial entities",K64.3.0 ,Other financial services
+NACE,"K64.9 - Other financial service activities, except insurance and pension funding",K64.9 ,Other financial services
+NACE,K64.9.1 - Financial leasing,K64.9.1 ,Other financial services
+NACE,K64.9.2 - Other credit granting,K64.9.2 ,Other financial services
+NACE,"K64.9.9 - Other financial service activities, except insurance and pension funding n.e.c.",K64.9.9 ,Other financial services
+NACE,"K65 - Insurance, reinsurance and pension funding, except compulsory social security",K65 ,Insurance
+NACE,K65.1 - Insurance,K65.1 ,Insurance
+NACE,K65.1.1 - Life insurance,K65.1.1 ,Insurance
+NACE,K65.1.2 - Non-life insurance,K65.1.2 ,Insurance
+NACE,K65.2 - Reinsurance,K65.2 ,Insurance
+NACE,K65.2.0 - Reinsurance,K65.2.0 ,Insurance
+NACE,K65.3 - Pension funding,K65.3 ,Other financial services
+NACE,K65.3.0 - Pension funding,K65.3.0 ,Other financial services
+NACE,K66 - Activities auxiliary to financial services and insurance activities,K66 ,Other financial services
+NACE,"K66.1 - Activities auxiliary to financial services, except insurance and pension funding",K66.1 ,Other financial services
+NACE,K66.1.1 - Administration of financial markets,K66.1.1 ,Other financial services
+NACE,K66.1.2 - Security and commodity contracts brokerage,K66.1.2 ,Other financial services
+NACE,"K66.1.9 - Other activities auxiliary to financial services, except insurance and pension funding",K66.1.9 ,Other financial services
+NACE,K66.2 - Activities auxiliary to insurance and pension funding,K66.2 ,Other financial services
+NACE,K66.2.1 - Risk and damage evaluation,K66.2.1 ,Other financial services
+NACE,K66.2.2 - Activities of insurance agents and brokers,K66.2.2 ,Other financial services
+NACE,K66.2.9 - Other activities auxiliary to insurance and pension funding,K66.2.9 ,Other financial services
+NACE,K66.3 - Fund management activities,K66.3 ,Other financial services
+NACE,K66.3.0 - Fund management activities,K66.3.0 ,Other financial services
+NACE,L68 - Real estate activities,L68 ,Real estate
+NACE,L68.1 - Buying and selling of own real estate,L68.1 ,Real estate
+NACE,L68.1.0 - Buying and selling of own real estate,L68.1.0 ,Real estate
+NACE,L68.2 - Renting and operating of own or leased real estate,L68.2 ,Real estate
+NACE,L68.2.0 - Renting and operating of own or leased real estate,L68.2.0 ,Real estate
+NACE,L68.3 - Real estate activities on a fee or contract basis,L68.3 ,Real estate
+NACE,L68.3.1 - Real estate agencies,L68.3.1 ,Real estate
+NACE,L68.3.2 - Management of real estate on a fee or contract basis,L68.3.2 ,Real estate
+NACE,M69 - Legal and accounting activities,M69 ,Business and industrial services
+NACE,M69.1 - Legal activities,M69.1 ,Business and industrial services
+NACE,M69.1.0 - Legal activities,M69.1.0 ,Business and industrial services
+NACE,"M69.2 - Accounting, bookkeeping and auditing activities; tax consultancy",M69.2 ,Business and industrial services
+NACE,"M69.2.0 - Accounting, bookkeeping and auditing activities; tax consultancy",M69.2.0 ,Business and industrial services
+NACE,M70 - Activities of head offices; management consultancy activities,M70 ,Business and industrial services
+NACE,M70.1 - Activities of head offices,M70.1 ,Business and industrial services
+NACE,M70.1.0 - Activities of head offices,M70.1.0 ,Business and industrial services
+NACE,M70.2 - Management consultancy activities,M70.2 ,Business and industrial services
+NACE,M70.2.1 - Public relations and communication activities,M70.2.1 ,Business and industrial services
+NACE,M70.2.2 - Business and other management consultancy activities,M70.2.2 ,Business and industrial services
+NACE,M71 - Architectural and engineering activities; technical testing and analysis,M71 ,Business and industrial services
+NACE,M71.1 - Architectural and engineering activities and related technical consultancy,M71.1 ,Business and industrial services
+NACE,M71.1.1 - Architectural activities,M71.1.1 ,Business and industrial services
+NACE,M71.1.2 - Engineering activities and related technical consultancy,M71.1.2 ,Business and industrial services
+NACE,M71.2 - Technical testing and analysis,M71.2 ,Business and industrial services
+NACE,M71.2.0 - Technical testing and analysis,M71.2.0 ,Business and industrial services
+NACE,M72 - Scientific research and development,M72 ,Biotechnology laboratories and services
+NACE,M72.1 - Research and experimental development on natural sciences and engineering,M72.1 ,Biotechnology laboratories and services
+NACE,M72.1.1 - Research and experimental development on biotechnology,M72.1.1 ,Biotechnology laboratories and services
+NACE,M72.1.9 - Other research and experimental development on natural sciences and engineering,M72.1.9 ,Biotechnology laboratories and services
+NACE,M72.2 - Research and experimental development on social sciences and humanities,M72.2 ,Business and industrial services
+NACE,M72.2.0 - Research and experimental development on social sciences and humanities,M72.2.0 ,Business and industrial services
+NACE,M73 - Advertising and market research,M73 ,Business and industrial services
+NACE,M73.1 - Advertising,M73.1 ,"Broadcasting, publications and content providers"
+NACE,M73.1.1 - Advertising agencies,M73.1.1 ,"Broadcasting, publications and content providers"
+NACE,M73.1.2 - Media representation,M73.1.2 ,"Broadcasting, publications and content providers"
+NACE,M73.2 - Market research and public opinion polling,M73.2 ,"Broadcasting, publications and content providers"
+NACE,M73.2.0 - Market research and public opinion polling,M73.2.0 ,"Broadcasting, publications and content providers"
+NACE,"M74 - Other professional, scientific and technical activities",M74 ,Not in our scope
+NACE,M74.1 - Specialised design activities,M74.1 ,Business and industrial services
+NACE,M74.1.0 - Specialised design activities,M74.1.0 ,Business and industrial services
+NACE,M74.2 - Photographic activities,M74.2 ,Business and industrial services
+NACE,M74.2.0 - Photographic activities,M74.2.0 ,Business and industrial services
+NACE,M74.3 - Translation and interpretation activities,M74.3 ,Business and industrial services
+NACE,M74.3.0 - Translation and interpretation activities,M74.3.0 ,Business and industrial services
+NACE,"M74.9 - Other professional, scientific and technical activities n.e.c.",M74.9 ,Business and industrial services
+NACE,"M74.9.0 - Other professional, scientific and technical activities n.e.c.",M74.9.0 ,Business and industrial services
+NACE,M75 - Veterinary activities,M75 ,Other consumer services
+NACE,M75.0 - Veterinary activities,M75.0 ,Other consumer services
+NACE,M75.0.0 - Veterinary activities,M75.0.0 ,Other consumer services
+NACE,N77 - Rental and leasing activities,N77 ,Other consumer services & Business and industrial services
+NACE,N77.1 - Renting and leasing of motor vehicles,N77.1 ,Other consumer services & Business and industrial services
+NACE,N77.1.1 - Renting and leasing of cars and light motor vehicles,N77.1.1 ,Other consumer services & Business and industrial services
+NACE,N77.1.2 - Renting and leasing of trucks,N77.1.2 ,Other consumer services & Business and industrial services
+NACE,N77.2 - Renting and leasing of personal and household goods,N77.2 ,Other consumer services
+NACE,N77.2.1 - Renting and leasing of recreational and sports goods,N77.2.1 ,Other consumer services
+NACE,N77.2.2 - Renting of video tapes and disks,N77.2.2 ,Other consumer services
+NACE,N77.2.9 - Renting and leasing of other personal and household goods,N77.2.9 ,Other consumer services
+NACE,"N77.3 - Renting and leasing of other machinery, equipment and tangible goods",N77.3 ,Business and industrial services
+NACE,N77.3.1 - Renting and leasing of agricultural machinery and equipment,N77.3.1 ,Business and industrial services
+NACE,N77.3.2 - Renting and leasing of construction and civil engineering machinery and equipment,N77.3.2 ,Construction: related activities
+NACE,N77.3.3 - Renting and leasing of office machinery and equipment (including computers),N77.3.3 ,Business and industrial services
+NACE,N77.3.4 - Renting and leasing of water transport equipment,N77.3.4 ,Business and industrial services
+NACE,N77.3.5 - Renting and leasing of air transport equipment,N77.3.5 ,Business and industrial services
+NACE,"N77.3.9 - Renting and leasing of other machinery, equipment and tangible goods n.e.c.",N77.3.9 ,Business and industrial services
+NACE,"N77.4 - Leasing of intellectual property and similar products, except copyrighted works",N77.4 ,Business and industrial services
+NACE,"N77.4.0 - Leasing of intellectual property and similar products, except copyrighted works",N77.4.0 ,Business and industrial services
+NACE,N78 - Employment activities,N78 ,Business and industrial services
+NACE,N78.1 - Activities of employment placement agencies,N78.1 ,Business and industrial services
+NACE,N78.1.0 - Activities of employment placement agencies,N78.1.0 ,Business and industrial services
+NACE,N78.2 - Temporary employment agency activities,N78.2 ,Business and industrial services
+NACE,N78.2.0 - Temporary employment agency activities,N78.2.0 ,Business and industrial services
+NACE,N78.3 - Other human resources provision,N78.3 ,Business and industrial services
+NACE,N78.3.0 - Other human resources provision,N78.3.0 ,Business and industrial services
+NACE,"N79 - Travel agency, tour operator and other reservation service and related activities",N79 ,"Hospitality, sports and entertainment facilities"
+NACE,N79.1 - Travel agency and tour operator activities,N79.1 ,"Hospitality, sports and entertainment facilities"
+NACE,N79.1.1 - Travel agency activities,N79.1.1 ,"Hospitality, sports and entertainment facilities"
+NACE,N79.1.2 - Tour operator activities,N79.1.2 ,"Hospitality, sports and entertainment facilities"
+NACE,N79.9 - Other reservation service and related activities,N79.9 ,"Hospitality, sports and entertainment facilities"
+NACE,N79.9.0 - Other reservation service and related activities,N79.9.0 ,"Hospitality, sports and entertainment facilities"
+NACE,N80 - Security and investigation activities,N80 ,Business and industrial services
+NACE,N80.1 - Private security activities,N80.1 ,Business and industrial services
+NACE,N80.1.0 - Private security activities,N80.1.0 ,Business and industrial services
+NACE,N80.2 - Security systems service activities,N80.2 ,Business and industrial services
+NACE,N80.2.0 - Security systems service activities,N80.2.0 ,Business and industrial services
+NACE,N80.3 - Investigation activities,N80.3 ,Business and industrial services
+NACE,N80.3.0 - Investigation activities,N80.3.0 ,Business and industrial services
+NACE,N81 - Services to buildings and landscape activities,N81 ,Business and industrial services
+NACE,N81.1 - Combined facilities support activities,N81.1 ,Business and industrial services
+NACE,N81.1.0 - Combined facilities support activities,N81.1.0 ,Business and industrial services
+NACE,N81.2 - Cleaning activities,N81.2 ,Business and industrial services
+NACE,N81.2.1 - General cleaning of buildings,N81.2.1 ,Business and industrial services
+NACE,N81.2.2 - Other building and industrial cleaning activities,N81.2.2 ,Business and industrial services
+NACE,N81.2.9 - Other cleaning activities,N81.2.9 ,Business and industrial services
+NACE,N81.3 - Landscape service activities,N81.3 ,Business and industrial services
+NACE,N81.3.0 - Landscape service activities,N81.3.0 ,Business and industrial services
+NACE,"N82 - Office administrative, office support and other business support activities",N82 ,Business and industrial services
+NACE,N82.1 - Office administrative and support activities,N82.1 ,Business and industrial services
+NACE,N82.1.1 - Combined office administrative service activities,N82.1.1 ,Business and industrial services
+NACE,"N82.1.9 - Photocopying, document preparation and other specialised office support activities",N82.1.9 ,Business and industrial services
+NACE,N82.2 - Activities of call centres,N82.2 ,Business and industrial services
+NACE,N82.2.0 - Activities of call centres,N82.2.0 ,Business and industrial services
+NACE,N82.3 - Organisation of conventions and trade shows,N82.3 ,Business and industrial services
+NACE,N82.3.0 - Organisation of conventions and trade shows,N82.3.0 ,Business and industrial services
+NACE,N82.9 - Business support service activities n.e.c.,N82.9 ,Business and industrial services
+NACE,N82.9.1 - Activities of collection agencies and credit bureaus,N82.9.1 ,Business and industrial services
+NACE,N82.9.2 - Packaging activities,N82.9.2 ,Business and industrial services
+NACE,N82.9.9 - Other business support service activities n.e.c.,N82.9.9 ,Business and industrial services
+NACE,O84 - Public administration and defence; compulsory social security,O84 ,Public services (excl. education)
+NACE,O84.1 - Administration of the State and the economic and social policy of the community,O84.1 ,Public services (excl. education)
+NACE,O84.1.1 - General public administration activities,O84.1.1 ,Public services (excl. education)
+NACE,"O84.1.2 - Regulation of the activities of providing health care, education, cultural services and other social services, excluding social security",O84.1.2 ,Public services (excl. education)
+NACE,O84.1.3 - Regulation of and contribution to more efficient operation of businesses,O84.1.3 ,Public services (excl. education)
+NACE,O84.2 - Provision of services to the community as a whole,O84.2 ,Public services (excl. education)
+NACE,O84.2.1 - Foreign affairs,O84.2.1 ,Public services (excl. education)
+NACE,O84.2.2 - Defence activities,O84.2.2 ,Public services (excl. education)
+NACE,O84.2.3 - Justice and judicial activities,O84.2.3 ,Public services (excl. education)
+NACE,O84.2.4 - Public order and safety activities,O84.2.4 ,Public services (excl. education)
+NACE,O84.2.5 - Fire service activities,O84.2.5 ,Public services (excl. education)
+NACE,O84.3 - Compulsory social security activities,O84.3 ,Public services (excl. education)
+NACE,O84.3.0 - Compulsory social security activities,O84.3.0 ,Public services (excl. education)
+NACE,P85 - Education,P85 ,Educational and training products/services
+NACE,P85.1 - Pre-primary education,P85.1 ,Educational and training products/services
+NACE,P85.1.0 - Pre-primary education,P85.1.0 ,Educational and training products/services
+NACE,P85.2 - Primary education,P85.2 ,Educational and training products/services
+NACE,P85.2.0 - Primary education,P85.2.0 ,Educational and training products/services
+NACE,P85.3 - Secondary education,P85.3 ,Educational and training products/services
+NACE,P85.3.1 - General secondary education,P85.3.1 ,Educational and training products/services
+NACE,P85.3.2 - Technical and vocational secondary education,P85.3.2 ,Educational and training products/services
+NACE,P85.4 - Higher education,P85.4 ,Educational and training products/services
+NACE,P85.4.1 - Post-secondary non-tertiary education,P85.4.1 ,Educational and training products/services
+NACE,P85.4.2 - Tertiary education,P85.4.2 ,Educational and training products/services
+NACE,P85.5 - Other education,P85.5 ,Educational and training products/services
+NACE,P85.5.1 - Sports and recreation education,P85.5.1 ,Educational and training products/services
+NACE,P85.5.2 - Cultural education,P85.5.2 ,Educational and training products/services
+NACE,P85.5.3 - Driving school activities,P85.5.3 ,Educational and training products/services
+NACE,P85.5.9 - Other education n.e.c.,P85.5.9 ,Educational and training products/services
+NACE,P85.6 - Educational support activities,P85.6 ,Educational and training products/services
+NACE,P85.6.0 - Educational support activities,P85.6.0 ,Educational and training products/services
+NACE,Q86 - Human health activities,Q86 ,Healthcare institutions and services
+NACE,Q86.1 - Hospital activities,Q86.1 ,Healthcare institutions and services
+NACE,Q86.1.0 - Hospital activities,Q86.1.0 ,Healthcare institutions and services
+NACE,Q86.2 - Medical and dental practice activities,Q86.2 ,Healthcare institutions and services
+NACE,Q86.2.1 - General medical practice activities,Q86.2.1 ,Healthcare institutions and services
+NACE,Q86.2.2 - Specialist medical practice activities,Q86.2.2 ,Healthcare institutions and services
+NACE,Q86.2.3 - Dental practice activities,Q86.2.3 ,Healthcare institutions and services
+NACE,Q86.9 - Other human health activities,Q86.9 ,Healthcare institutions and services
+NACE,Q86.9.0 - Other human health activities,Q86.9.0 ,Healthcare institutions and services
+NACE,Q87 - Residential care activities,Q87 ,Healthcare institutions and services
+NACE,Q87.1 - Residential nursing care activities,Q87.1 ,Healthcare institutions and services
+NACE,Q87.1.0 - Residential nursing care activities,Q87.1.0 ,Healthcare institutions and services
+NACE,"Q87.2 - Residential care activities for mental retardation, mental health and substance abuse",Q87.2 ,Healthcare institutions and services
+NACE,"Q87.2.0 - Residential care activities for mental retardation, mental health and substance abuse",Q87.2.0 ,Healthcare institutions and services
+NACE,Q87.3 - Residential care activities for the elderly and disabled,Q87.3 ,Healthcare institutions and services
+NACE,Q87.3.0 - Residential care activities for the elderly and disabled,Q87.3.0 ,Healthcare institutions and services
+NACE,Q87.9 - Other residential care activities,Q87.9 ,Healthcare institutions and services
+NACE,Q87.9.0 - Other residential care activities,Q87.9.0 ,Healthcare institutions and services
+NACE,Q88 - Social work activities without accommodation,Q88 ,Healthcare institutions and services
+NACE,Q88.1 - Social work activities without accommodation for the elderly and disabled,Q88.1 ,Healthcare institutions and services
+NACE,Q88.1.0 - Social work activities without accommodation for the elderly and disabled,Q88.1.0 ,Healthcare institutions and services
+NACE,Q88.9 - Other social work activities without accommodation,Q88.9 ,Healthcare institutions and services
+NACE,Q88.9.1 - Child day-care activities,Q88.9.1 ,Educational and training products/services
+NACE,Q88.9.9 - Other social work activities without accommodation n.e.c.,Q88.9.9 ,Healthcare institutions and services
+NACE,"R90 - Creative, arts and entertainment activities",R90 ,Art galleries and related services
+NACE,"R90.0 - Creative, arts and entertainment activities",R90.0 ,Art galleries and related services
+NACE,R90.0.1 - Performing arts,R90.0.1 ,Art galleries and related services
+NACE,R90.0.2 - Support activities to performing arts,R90.0.2 ,Art galleries and related services
+NACE,R90.0.3 - Artistic creation,R90.0.3 ,Art galleries and related services
+NACE,R90.0.4 - Operation of arts facilities,R90.0.4 ,Art galleries and related services
+NACE,"R91 - Libraries, archives, museums and other cultural activities",R91 ,Art galleries and related services
+NACE,"R91.0 - Libraries, archives, museums and other cultural activities",R91.0 ,Art galleries and related services
+NACE,R91.0.1 - Library and archives activities,R91.0.1 ,Art galleries and related services
+NACE,R91.0.2 - Museums activities,R91.0.2 ,Art galleries and related services
+NACE,R91.0.3 - Operation of historical sites and buildings and similar visitor attractions,R91.0.3 ,Not in our scope
+NACE,R91.0.4 - Botanical and zoological gardens and nature reserves activities,R91.0.4 ,Not in our scope
+NACE,R92 - Gambling and betting activities,R92 ,"Hospitality, sports and entertainment facilities"
+NACE,R92.0 - Gambling and betting activities,R92.0 ,"Hospitality, sports and entertainment facilities"
+NACE,R92.0.0 - Gambling and betting activities,R92.0.0 ,"Hospitality, sports and entertainment facilities"
+NACE,R93 - Sports activities and amusement and recreation activities,R93 ,"Hospitality, sports and entertainment facilities"
+NACE,R93.1 - Sports activities,R93.1 ,"Hospitality, sports and entertainment facilities"
+NACE,R93.1.1 - Operation of sports facilities,R93.1.1 ,"Hospitality, sports and entertainment facilities"
+NACE,R93.1.2 - Activities of sport clubs,R93.1.2 ,"Hospitality, sports and entertainment facilities"
+NACE,R93.1.3 - Fitness facilities,R93.1.3 ,"Hospitality, sports and entertainment facilities"
+NACE,R93.1.9 - Other sports activities,R93.1.9 ,"Hospitality, sports and entertainment facilities"
+NACE,R93.2 - Amusement and recreation activities,R93.2 ,"Hospitality, sports and entertainment facilities"
+NACE,R93.2.1 - Activities of amusement parks and theme parks,R93.2.1 ,"Hospitality, sports and entertainment facilities"
+NACE,R93.2.9 - Other amusement and recreation activities,R93.2.9 ,"Hospitality, sports and entertainment facilities"
+NACE,S94 - Activities of membership organisations,S94 ,Not in our scope
+NACE,"S94.1 - Activities of business, employers and professional membership organisations",S94.1 ,Not in our scope
+NACE,S94.1.1 - Activities of business and employers membership organisations,S94.1.1 ,Not in our scope
+NACE,S94.1.2 - Activities of professional membership organisations,S94.1.2 ,Not in our scope
+NACE,S94.2 - Activities of trade unions,S94.2 ,Not in our scope
+NACE,S94.2.0 - Activities of trade unions,S94.2.0 ,Not in our scope
+NACE,S94.9 - Activities of other membership organisations,S94.9 ,Not in our scope
+NACE,S94.9.1 - Activities of religious organisations,S94.9.1 ,Not in our scope
+NACE,S94.9.2 - Activities of political organisations,S94.9.2 ,Not in our scope
+NACE,S94.9.9 - Activities of other membership organisations n.e.c.,S94.9.9 ,Not in our scope
+NACE,S95 - Repair of computers and personal and household goods,S95 ,Computer: retail/wholesale and repair activities
+NACE,S95.1 - Repair of computers and communication equipment,S95.1 ,Computer: retail/wholesale and repair activities
+NACE,S95.1.1 - Repair of computers and peripheral equipment,S95.1.1 ,Computer: retail/wholesale and repair activities
+NACE,S95.1.2 - Repair of communication equipment,S95.1.2 ,Communications: retail/wholesale and repair activities
+NACE,S95.2 - Repair of personal and household goods,S95.2 ,Other consumer services
+NACE,S95.2.1 - Repair of consumer electronics,S95.2.1 ,Other consumer services
+NACE,S95.2.2 - Repair of household appliances and home and garden equipment,S95.2.2 ,Other consumer services
+NACE,S95.2.3 - Repair of footwear and leather goods,S95.2.3 ,Other consumer services
+NACE,S95.2.4 - Repair of furniture and home furnishings,S95.2.4 ,Other consumer services
+NACE,"S95.2.5 - Repair of watches, clocks and jewellery",S95.2.5 ,Other consumer services
+NACE,S95.2.9 - Repair of other personal and household goods,S95.2.9 ,Other consumer services
+NACE,S96 - Other personal service activities,S96 ,Other consumer services
+NACE,S96.0 - Other personal service activities,S96.0 ,Other consumer services
+NACE,S96.0.1 - Washing and (dry-)cleaning of textile and fur products,S96.0.1 ,Other consumer services
+NACE,S96.0.2 - Hairdressing and other beauty treatment,S96.0.2 ,Other consumer services
+NACE,S96.0.3 - Funeral and related activities,S96.0.3 ,Other consumer services
+NACE,S96.0.4 - Physical well-being activities,S96.0.4 ,Other consumer services
+NACE,S96.0.9 - Other personal service activities n.e.c.,S96.0.9 ,Other consumer services
